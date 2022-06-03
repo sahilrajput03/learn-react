@@ -1,0 +1,3 @@
+        ...(isEnvDevelopment && { 'react-dom': '@hot-loader/react-dom' }),
+
+/*Above line supresses warning {{ React-Hot-Loader:  react-dom patch is not detected. React 16.6+ features may not work.}}  with hot-reloader. */

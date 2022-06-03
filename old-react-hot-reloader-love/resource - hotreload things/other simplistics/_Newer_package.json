@@ -1,0 +1,12 @@
+{
+  /* package.json */
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "startold": "react-scripts start",
+    "buildold": "react-scripts build",
+    "testold": "react-scripts test"
+  }
+}
