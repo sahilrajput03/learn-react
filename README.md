@@ -8,4 +8,5 @@ Merged repos:
 - `react-sass-love`
 - `react-fast-refresh-boilerplate`
 - `react-naked` as `react-via-cdn`
-- `./snowpack-react-boilerplate/`
+- `snowpack-react-boilerplate/`
+- `deno-aleph-react-framework`
