@@ -1,0 +1,12 @@
+$size: 40px;
+
+@mixin mq($width: 50em) {
+  // FYI: 50 * 16px = 800px
+  @media (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin bgred {
+  background: deeppink;
+}

@@ -5,3 +5,4 @@ Merged repos:
 - `simple_service_worker`
 - `react-markdown-serve-markedjs`
 - `react-vite` as `my-react-vite-app` directory
+- `react-sass-love`
