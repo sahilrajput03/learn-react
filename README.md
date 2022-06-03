@@ -12,3 +12,5 @@ Merged repos:
 - `deno-aleph-react-framework`
 - `GistsFetchingFromGithubRandom_react-router-dom`
 - `hackerrank-sorting-react-test`
+
+- React-query: [Gist](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
