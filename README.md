@@ -11,3 +11,4 @@ Merged repos:
 - `snowpack-react-boilerplate/`
 - `deno-aleph-react-framework`
 - `GistsFetchingFromGithubRandom_react-router-dom`
+- `hackerrank-sorting-react-test`
