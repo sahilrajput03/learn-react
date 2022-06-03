@@ -1,0 +1,31 @@
+{
+  "name": "gists-fetching-from-github-usehistory-from-react-router-dom",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "scriptCustom": "rm -rf docs && mv build docs",
+    "deploy": "npm run build && npm run scriptCustom && cpn",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "http://something.com/GistsFetchingFromGithubRandom_react-router-dom"
+}
