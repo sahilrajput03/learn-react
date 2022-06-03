@@ -6,3 +6,5 @@ Merged repos:
 - `react-markdown-serve-markedjs`
 - `react-vite` as `my-react-vite-app` directory
 - `react-sass-love`
+- `react-fast-refresh-boilerplate`
+- `react-naked` as `react-via-cdn`

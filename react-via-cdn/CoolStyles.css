@@ -1,0 +1,23 @@
+.common{
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 40px;
+  padding: 15px;
+  margin: 10px;
+}
+.myElement{
+  color: orangered;
+}
+
+.myComponent{
+  color: crimson;
+}
+.myCars{
+  border-style: solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+.SubChildComponent{
+  background-color: pink;
+  padding: 15px;
+}
