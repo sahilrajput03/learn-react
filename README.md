@@ -12,5 +12,16 @@ Merged repos:
 - `deno-aleph-react-framework`
 - `GistsFetchingFromGithubRandom_react-router-dom`
 - `hackerrank-sorting-react-test`
-
 - React-query: [Gist](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
+
+## Usefult react libraries
+
+- From avalon meta's project(60lpa dev):
+  - emojipicker (emoji-picker-react): https://github.com/ealush/emoji-picker-react
+  - shifty (animation library): https://github.com/jeremyckahn/shifty
+  - jsfiledownloader: https://github.com/AleeeKoi/js-file-downloader		LEARN: (helpful to download files in browser with progress indication as well)
+  - redux-saga:(22.2k*) https://github.com/redux-saga/redux-saga, getting-started: https://redux-saga.js.org/docs/introduction/GettingStarted
+  - redux-persist(12.2k*): https://github.com/rt2zz/redux-persist
+  - react-paginate(2.3k*): https://github.com/AdeleD/react-paginate
+  - react-toastify(9.3k*): https://github.com/fkhadra/react-toastify, playground: https://fkhadra.github.io/react-toastify/introduction/
+  - react-initial(5*): https://github.com/brunocarvalhodearaujo/react-initial, playground: https://brunocarvalhodearaujo.github.io/react-initial/
