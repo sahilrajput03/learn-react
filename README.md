@@ -59,6 +59,10 @@ log('4', stringify(a)); // [["1","0"],{"a":"0"}]
 
 ## Others
 
-- Developing multiple react projects in single react project ?
+- Developing multiple react projects in single react project:
 
 ![image](https://user-images.githubusercontent.com/31458531/177572784-5f50ed9e-0d43-4105-8e9c-894b456072ab.png)
+
+- Implementing immer with a reducer is so easy:
+
+![image](https://user-images.githubusercontent.com/31458531/177575494-8bc579a7-8247-4619-8887-827a250e5bb8.png)
