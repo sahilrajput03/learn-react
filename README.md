@@ -25,3 +25,25 @@ Merged repos:
   - react-paginate(2.3k*): https://github.com/AdeleD/react-paginate
   - react-toastify(9.3k*): https://github.com/fkhadra/react-toastify, playground: https://fkhadra.github.io/react-toastify/introduction/
   - react-initial(5*): https://github.com/brunocarvalhodearaujo/react-initial, playground: https://brunocarvalhodearaujo.github.io/react-initial/
+
+- over-the-head:
+
+```js
+// src: https://github.com/WebReflection/flatted
+const {parse, stringify, toJSON, fromJSON} = require('flatted');
+let log = console.log
+
+const a = [{}];
+log('1', a) // 1 [ {} ]
+
+a[0].a = a;
+log('2', a) // 2 <ref *1> [ { a: [Circular *1] } ]
+
+a.push(a);
+log('3', a) // 3 <ref *1> [ { a: [Circular *1] }, [Circular *1] ]
+
+// log('natural stringify:', JSON.stringify(a)), throws error i.e., TypeError: Converting circular structure to JSON
+
+log('4', stringify(a)); // [["1","0"],{"a":"0"}]
+//~sahil: 4 [["1","0"],{"a":"0"}]
+```
