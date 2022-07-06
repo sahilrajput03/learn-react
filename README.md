@@ -14,6 +14,11 @@ Merged repos:
 - `hackerrank-sorting-react-test`
 - React-query: [Gist](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
 
+## Other react articles
+
+- [Food ordering App](https://dev.to/myogeshchavan97/build-a-complete-food-ordering-app-using-react-redux-along-with-stripe-payment-integration-1k61), [Other Articles and projects](https://dev.to/myogeshchavan97)
+- Hide project soure code in browser - [Click here](https://dev.to/myogeshchavan97/how-to-hide-your-react-source-code-from-getting-displayed-in-chrome-dev-tools-when-deployed-to-production-41j7)
+
 ## Usefult react libraries
 
 - ***From [sahilrajput03/decode-buildonscenes.com](https://github.com/sahilrajput03/decode-buildonscenes.com)**(60lpa dev):***
