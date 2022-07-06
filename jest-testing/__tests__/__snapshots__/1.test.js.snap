@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders sahil message correctly 1`] = `
+<div>
+  Hello 
+  Sahil
+</div>
+`;
+
+exports[`renders world message correctly 1`] = `
+<div>
+  Hello 
+  world
+</div>
+`;
