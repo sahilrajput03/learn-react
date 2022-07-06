@@ -27,6 +27,7 @@ Merged repos:
   - react-initial(5*): https://github.com/brunocarvalhodearaujo/react-initial, playground: https://brunocarvalhodearaujo.github.io/react-initial/
   - redux-thunk(17.2k*)<direct-from-Dan-Abramov>: https://github.com/reduxjs/redux-thunk
 - over-the-head:
+  - flatted: https://github.com/WebReflection/flatted
 
 ```js
 // src: https://github.com/WebReflection/flatted
