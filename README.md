@@ -56,3 +56,9 @@ log('3', a) // 3 <ref *1> [ { a: [Circular *1] }, [Circular *1] ]
 log('4', stringify(a)); // [["1","0"],{"a":"0"}]
 //~sahil: 4 [["1","0"],{"a":"0"}]
 ```
+
+## Others
+
+- Developing multiple react projects in single react project ?
+
+![image](https://user-images.githubusercontent.com/31458531/177572784-5f50ed9e-0d43-4105-8e9c-894b456072ab.png)
