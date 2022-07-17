@@ -1,5 +1,8 @@
 # Readme
 
+## Important links
+- Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/docs/en/v6/upgrading/v5#use-usenavigate-instead-of-usehistory)
+
 Merged repos:
 - react-app as `template-js-vite` directory
 - `simple_service_worker`
