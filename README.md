@@ -70,7 +70,7 @@ log('4', stringify(a)); // [["1","0"],{"a":"0"}]
 
 ![image](https://user-images.githubusercontent.com/31458531/177575494-8bc579a7-8247-4619-8887-827a250e5bb8.png)
   
-## Use native browser history api instead of react-routed-dom api everytime
+- Use native browser history api instead of react-routed-dom api everytime
 
 ```jsx
 const history = (path) => window.history.pushState('', '', path)
@@ -98,7 +98,7 @@ const jsx = () => {
 }
 ```
 
-## React eslint + prettier settings
+- React eslint + prettier settings
 
 1. Ensure that `package.json` file has below content:
 
