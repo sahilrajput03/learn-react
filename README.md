@@ -62,15 +62,15 @@ log('4', stringify(a)); // [["1","0"],{"a":"0"}]
 
 ## more....
 
-- Developing multiple react projects in single react project:
+#### - Developing multiple react projects in single react project:
 
 ![image](https://user-images.githubusercontent.com/31458531/177572784-5f50ed9e-0d43-4105-8e9c-894b456072ab.png)
 
-- Implementing immer with a reducer is so easy [for codesandbox link -> click here](https://codesandbox.io/s/reducer-made-amazing-immerjs-b3tgy?file=/src/SingleCounterImmer/context.js:34-95):
+#### - Implementing immer with a reducer is so easy [for codesandbox link -> click here](https://codesandbox.io/s/reducer-made-amazing-immerjs-b3tgy?file=/src/SingleCounterImmer/context.js:34-95):
 
 ![image](https://user-images.githubusercontent.com/31458531/177575494-8bc579a7-8247-4619-8887-827a250e5bb8.png)
   
-- Use native browser history api instead of react-routed-dom api everytime
+#### - Use native browser history api instead of react-routed-dom api everytime
 
 ```jsx
 const history = (path) => window.history.pushState('', '', path)
@@ -98,7 +98,7 @@ const jsx = () => {
 }
 ```
 
-- React eslint + prettier settings
+#### - React eslint + prettier settings
 
 1. Ensure that `package.json` file has below content:
 
@@ -123,6 +123,6 @@ npm run prettier-write
 
 Thats all it takes and don't forget to restart your react server.
 
-- Debugging made easy in vscode itself (src: CRA documentation
+#### - Debugging made easy in vscode itself (src: CRA documentation
 
 Source: https://create-react-app.dev/docs/setting-up-your-editor/#visual-studio-code
