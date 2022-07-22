@@ -1,0 +1,13 @@
+#create note with authorization
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1yYWpwdXQiLCJpZCI6IjVlODhiYzNjY2YwZTk0MjE4ODUxNWZkMyIsImlhdCI6MTU4NjE4NjQ3Nn0.wSaXMXWzDPiukNQzc3PL7feTerK3uCEI_qvluOvAE7c
+
+{
+  "title": "Earth is flat.",
+  "likes": 2,
+  "author": "Murti Rajput",
+  "url": "www.imobia.ml"
+}
+
+# Commenting is allowed in rest files, try via Ctrl + /

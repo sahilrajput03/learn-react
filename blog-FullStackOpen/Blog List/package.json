@@ -1,0 +1,29 @@
+{
+  "name": "blog-list",
+  "version": "1.0.0",
+  "description": "A mere investment for life of jaadujinn.ml",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "nodemon index.js",
+    "test": "NODE_ENV=test jest --verbose --runInBand",
+    "push-to-github": "cd .. && git add . && git commit -m \" Updated till exercise: 5.10; Automated Commit from script. \" && git push "
+  },
+  "author": "Sahil Rajput",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.4",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}

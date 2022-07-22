@@ -1,0 +1,13 @@
+###
+DELETE http://localhost:3003/api/blogs/5e88e91c7573ee2664ad2a39
+###
+DELETE http://localhost:3003/api/blogs/5e6d2a195e24f953506c4e51
+###
+DELETE http://localhost:3003/api/blogs/5e6d2b4185b7190eb049d9ba
+###
+DELETE http://localhost:3001/api/blogs/5e6d34cf4a9e523754357d8e
+###
+DELETE http://localhost:3001/api/blogs/5e6d2859aed0064fa0343150
+###
+DELETE http://localhost:3001/api/blogs/5e6d2a195e24f953506c4e51
+###

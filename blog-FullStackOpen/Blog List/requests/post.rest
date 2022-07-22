@@ -1,0 +1,33 @@
+# This line is comment
+@title = Title is whatever or, every thing in this line is title.
+@author = Ramanujan
+@url = https://www.ramanujan.com
+@likes = 499
+###
+
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "POPOJust Title Here."
+}
+###
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "{{title}}",
+  "author": "{{author}}",
+  "url": "{{url}}",
+  "likes": {{likes}}
+}
+###
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Tuntunaa99",
+  "author": "Pagal Tipu Sultan",
+  "url": "Bablitera-mera.com",
+  "likes": 90
+}
