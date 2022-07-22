@@ -1,5 +1,8 @@
 # Readme
 
+## Important links
+- Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/docs/en/v6/upgrading/v5#use-usenavigate-instead-of-usehistory)
+
 Merged repos:
 - react-app as `template-js-vite` directory
 - `simple_service_worker`
@@ -57,12 +60,69 @@ log('4', stringify(a)); // [["1","0"],{"a":"0"}]
 //~sahil: 4 [["1","0"],{"a":"0"}]
 ```
 
-## Others
+## more....
 
-- Developing multiple react projects in single react project:
+#### - Developing multiple react projects in single react project:
 
 ![image](https://user-images.githubusercontent.com/31458531/177572784-5f50ed9e-0d43-4105-8e9c-894b456072ab.png)
 
-- Implementing immer with a reducer is so easy [for codesandbox link -> click here](https://codesandbox.io/s/reducer-made-amazing-immerjs-b3tgy?file=/src/SingleCounterImmer/context.js:34-95):
+#### - Implementing immer with a reducer is so easy [for codesandbox link -> click here](https://codesandbox.io/s/reducer-made-amazing-immerjs-b3tgy?file=/src/SingleCounterImmer/context.js:34-95):
 
 ![image](https://user-images.githubusercontent.com/31458531/177575494-8bc579a7-8247-4619-8887-827a250e5bb8.png)
+  
+#### - Use native browser history api instead of react-routed-dom api everytime
+
+```jsx
+const history = (path) => window.history.pushState('', '', path)
+
+const jsx = () => {
+	return (
+		<div>
+			<button
+				onClick={() => {
+					history('/boom')
+				}}
+			>
+				Click me to go to /boom
+			</button>
+
+			<button
+				onClick={() => {
+					history('/bamm')
+				}}
+			>
+				Click me to go to /bamm
+			</button>
+		</div>
+	)
+}
+```
+
+#### - React eslint + prettier settings
+
+1. Ensure that `package.json` file has below content:
+
+```json
+{
+	"eslintConfig": {
+		"extends": ["react-app", "react-app/jest"]
+	}
+}
+```
+
+2. Use below commands to install some dependencies, add `.eslintrc.js`, `.prettierrc.js` and `.prettierignore` in a CRA project's root directory:
+
+```bash
+npm i -D eslint-config-prettier eslint-plugin-prettier
+curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/eslint-config-react/.eslintrc.js
+curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierrc.js
+curl -O https://raw.githubusercontent.com/sahilrajput03/my_bin/master/files/.prettierignore
+npm set-script prettier-write "prettier --write ."
+npm run prettier-write
+```
+
+Thats all it takes and don't forget to restart your react server.
+
+#### - Debugging made easy in vscode itself (src: CRA documentation
+
+Source: https://create-react-app.dev/docs/setting-up-your-editor/#visual-studio-code
