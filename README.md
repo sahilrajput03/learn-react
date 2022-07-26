@@ -22,6 +22,7 @@ Merged repos:
 
 ## Other react articles
 
+- Read how to work with react-routerv6: [Ultimate React Router v6 Guide](https://blog.webdevsimplified.com/2022-07/react-router/)
 - Food ordering App - [Click here](https://dev.to/myogeshchavan97/build-a-complete-food-ordering-app-using-react-redux-along-with-stripe-payment-integration-1k61) and [Other Articles and projects](https://dev.to/myogeshchavan97)
 - Hide project soure code in browser - [Click here](https://dev.to/myogeshchavan97/how-to-hide-your-react-source-code-from-getting-displayed-in-chrome-dev-tools-when-deployed-to-production-41j7)
 
