@@ -3,6 +3,8 @@
 ## Important links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/docs/en/v6/upgrading/v5#use-usenavigate-instead-of-usehistory)
 
+## For reference to fullstack solutions: Please refer @ https://github.com/sahilrajput03/fullstackopen
+
 Merged repos:
 
 - react-app as `template-js-vite` directory
