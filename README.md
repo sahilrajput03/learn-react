@@ -133,5 +133,5 @@ Source: https://create-react-app.dev/docs/setting-up-your-editor/#visual-studio-
 
 #### Simple way to define way of `onMount` functions in react components
 
-![image](![image](https://user-images.githubusercontent.com/31458531/183052636-f660e2c3-836e-431a-9f02-abae02a3b3b1.png)
-)
+![image](https://user-images.githubusercontent.com/31458531/183052708-216bc575-f02a-4af9-a2b1-e1baeab36457.png)
+
