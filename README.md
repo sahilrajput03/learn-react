@@ -131,6 +131,7 @@ Thats all it takes and don't forget to restart your react server.
 
 Source: https://create-react-app.dev/docs/setting-up-your-editor/#visual-studio-code
 
-#### Simple way to define way of `onPageLoad` function definition
+#### Simple way to define way of `onMount` functions in react components
 
-![image](https://user-images.githubusercontent.com/31458531/183034227-57e81b51-7cad-41fa-a669-cdede5de6f2d.png)
+![image](![image](https://user-images.githubusercontent.com/31458531/183052636-f660e2c3-836e-431a-9f02-abae02a3b3b1.png)
+)
