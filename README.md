@@ -130,3 +130,7 @@ Thats all it takes and don't forget to restart your react server.
 #### - Debugging made easy in vscode itself (src: CRA documentation
 
 Source: https://create-react-app.dev/docs/setting-up-your-editor/#visual-studio-code
+
+#### Simple way to define way of `onPageLoad` function definition
+
+![image](https://user-images.githubusercontent.com/31458531/183034227-57e81b51-7cad-41fa-a669-cdede5de6f2d.png)
