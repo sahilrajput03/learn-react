@@ -2,7 +2,7 @@
 
 ## Starting debugger in existing chrome window (rather than opening new bulky chrome window on start of each debugging session) 
 
-We need to have a chrome running with debugging on i.e, we can do it via: `google-chrome-stable --remote-debugging-port=9222` and we can create a `Chrome:Attcah` configuration via:
+We need to have a chrome running with debugging on i.e, we can do it via: (*use your alias i.e., `chrome-debug`*) `google-chrome-stable --remote-debugging-port=9222` and we can create a `Chrome:Attach` debugger configuration via:
 
 ![image](https://user-images.githubusercontent.com/31458531/183285633-76eb38f7-6b7f-4bdc-9fb2-dfd6222fe118.png)
 
