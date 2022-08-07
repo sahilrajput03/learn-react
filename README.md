@@ -1,5 +1,15 @@
 # Readme
 
+## Starting debugger in existing chrome window (rather than opening new bulky chrome window on start of each debugging session) 
+
+We need to have a chrome running with debugging on i.e, we can do it via: `google-chrome-stable --remote-debugging-port=9222` and we can create a `Chrome:Attcah` configuration via:
+
+![image](https://user-images.githubusercontent.com/31458531/183285633-76eb38f7-6b7f-4bdc-9fb2-dfd6222fe118.png)
+
+![image](https://user-images.githubusercontent.com/31458531/183285649-29eea803-7c07-4ae7-8aa4-0f476c6326de.png)
+
+![image](https://user-images.githubusercontent.com/31458531/183285668-03ef7717-92f3-474f-99b3-1f2a6c172c64.png)
+
 ## Important links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/docs/en/v6/upgrading/v5#use-usenavigate-instead-of-usehistory)
 
