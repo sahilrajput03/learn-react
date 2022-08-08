@@ -1,6 +1,6 @@
 # Readme
 
-## immer with existing setState hooks + NO BREAKING WITH OLDER CODE
+## immer with existing setState hooks (run with existing code base with existing setState api)
 
 ```js
 import produce from 'immer'
