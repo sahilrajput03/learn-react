@@ -1,6 +1,6 @@
 # Readme
 
-## React tracked with immer
+## React tracked with immer (prefer jotai though, its much popular on github right now)
 
 https://react-tracked.js.org/docs/tutorial-03/
 
