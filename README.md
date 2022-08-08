@@ -2,7 +2,7 @@
 
 ## Exported components to their own folders and now its hard to code in files with tab names as index.js in vscode
 
-So, do that:
+So, do that and do all exports from inside the `NavBar.js` file only:
 
 ![image](https://user-images.githubusercontent.com/31458531/183348978-a0d08fd0-e8f1-43ce-9d23-2ad25b2275a2.png)
 
