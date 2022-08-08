@@ -2,13 +2,13 @@
 
 ## An amazing way to make single handler for all the event handlers in your component
 
-You may use switch:case in handler to make it easy for you:
+[Source](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=29s) You may use switch:case in handler to make it easy for you:
 
 ![image](https://user-images.githubusercontent.com/31458531/183349804-825d51ad-197a-4184-b65c-1e44a567b8c4.png)
 
 ## Exported components to their own folders and now its hard to code in files with tab names as index.js in vscode
 
-So, do that and do all exports from inside the `NavBar.js` file only:
+[Source](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=29s) So, do that and do all exports from inside the `NavBar.js` file only:
 
 ![image](https://user-images.githubusercontent.com/31458531/183349204-b6eec074-2760-4823-986f-e477c4abbf37.png)
 
