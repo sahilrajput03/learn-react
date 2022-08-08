@@ -15,19 +15,6 @@ const onClickUrgent = () => {
 }
 ```
 
-## immer with existing setState hooks + NO BREAKING WITH OLDER CODE
-
-```js
-// source: https://github.com/sahilrajput03/learn-react/blob/main/warikoo-time-manager/src/App.js
-const [_, setData] = useData()
-const setDataImmer = (cb) => {
-	setData((data) => produce(data, cb))
-}
-const onClickUrgent = () => {
-	setDataImmer((data) => void (data.todos[idx].urgent = !data.todos[idx].urgent))
-}
-```
-
 ## React tracked with immer (prefer jotai though, its much popular and devleoped on github right now)
 
 **Directly using useImmer hook? Refer this reply from Daishi: [Click here](https://github.com/dai-shi/react-tracked/issues/135#issuecomment-1016978979)**
