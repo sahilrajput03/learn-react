@@ -1,5 +1,11 @@
 # Readme
 
+## Fix all file names are index.js and its hard to code in files with tab names as index.js in vscode
+
+So, do that:
+
+![image](https://user-images.githubusercontent.com/31458531/183348978-a0d08fd0-e8f1-43ce-9d23-2ad25b2275a2.png)
+
 ## Starting debugger in existing chrome window (rather than opening new bulky chrome window on start of each debugging session) 
 
 [Source1](https://stackoverflow.com/a/68065752/10012446), [Source2](https://www.freecodecamp.org/news/how-to-set-up-the-debugger-for-chrome-extension-in-visual-studio-code-c0b3e5937c01/)
