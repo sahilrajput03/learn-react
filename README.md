@@ -1,6 +1,6 @@
 # Readme
 
-## Fix all file names are index.js and its hard to code in files with tab names as index.js in vscode
+## Exported components to their own folders and now its hard to code in files with tab names as index.js in vscode
 
 So, do that:
 
