@@ -3,6 +3,8 @@
 ## immer with existing setState hooks + NO BREAKING WITH OLDER CODE
 
 ```js
+import produce from 'immer'
+
 // source: https://github.com/sahilrajput03/learn-react/blob/main/warikoo-time-manager/src/App.js
 const [_, setData] = useData()
 const setDataImmer = (cb) => {
