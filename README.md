@@ -4,7 +4,8 @@
 
 So, do that and do all exports from inside the `NavBar.js` file only:
 
-![image](https://user-images.githubusercontent.com/31458531/183348978-a0d08fd0-e8f1-43ce-9d23-2ad25b2275a2.png)
+![image](https://user-images.githubusercontent.com/31458531/183349204-b6eec074-2760-4823-986f-e477c4abbf37.png)
+
 
 ## Starting debugger in existing chrome window (rather than opening new bulky chrome window on start of each debugging session) 
 
