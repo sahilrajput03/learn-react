@@ -1,5 +1,36 @@
 # Readme
 
+## React tracked with immer (prefer jotai though, its much popular and devleoped on github right now)
+
+https://react-tracked.js.org/docs/tutorial-03/
+
+Linked codesandbox of final project @ https://codesandbox.io/s/infallible-firefly-yzwxc
+
+## An amazing way to make single handler for all the event handlers in your component
+
+[Source](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=29s) You may use switch:case in handler to make it easy for you:
+
+![image](https://user-images.githubusercontent.com/31458531/183349804-825d51ad-197a-4184-b65c-1e44a567b8c4.png)
+
+## Exported components to their own folders and now its hard to code in files with tab names as index.js in vscode
+
+[Source](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=29s) So, do that and do all exports from inside the `NavBar.js` file only:
+
+![image](https://user-images.githubusercontent.com/31458531/183349204-b6eec074-2760-4823-986f-e477c4abbf37.png)
+
+
+## Starting debugger in existing chrome window (rather than opening new bulky chrome window on start of each debugging session) 
+
+[Source1](https://stackoverflow.com/a/68065752/10012446), [Source2](https://www.freecodecamp.org/news/how-to-set-up-the-debugger-for-chrome-extension-in-visual-studio-code-c0b3e5937c01/)
+
+We need to have a chrome running with debugging on i.e, we can do it via: (*use your alias i.e., `chrome-debug`*) `google-chrome-stable --remote-debugging-port=9222` and we can create a `Chrome:Attach` debugger configuration via:
+
+![image](https://user-images.githubusercontent.com/31458531/183285633-76eb38f7-6b7f-4bdc-9fb2-dfd6222fe118.png)
+
+![image](https://user-images.githubusercontent.com/31458531/183285649-29eea803-7c07-4ae7-8aa4-0f476c6326de.png)
+
+![image](https://user-images.githubusercontent.com/31458531/183285668-03ef7717-92f3-474f-99b3-1f2a6c172c64.png)
+
 ## Important links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/docs/en/v6/upgrading/v5#use-usenavigate-instead-of-usehistory)
 
@@ -22,6 +53,7 @@ Merged repos:
 
 ## Other react articles
 
+- Read how to work with react-routerv6: [Ultimate React Router v6 Guide ~ Kyle](https://blog.webdevsimplified.com/2022-07/react-router/)
 - Food ordering App - [Click here](https://dev.to/myogeshchavan97/build-a-complete-food-ordering-app-using-react-redux-along-with-stripe-payment-integration-1k61) and [Other Articles and projects](https://dev.to/myogeshchavan97)
 - Hide project soure code in browser - [Click here](https://dev.to/myogeshchavan97/how-to-hide-your-react-source-code-from-getting-displayed-in-chrome-dev-tools-when-deployed-to-production-41j7)
 
@@ -129,3 +161,8 @@ Thats all it takes and don't forget to restart your react server.
 #### - Debugging made easy in vscode itself (src: CRA documentation
 
 Source: https://create-react-app.dev/docs/setting-up-your-editor/#visual-studio-code
+
+#### Simple way to define way of `onMount` functions in react components
+
+![image](https://user-images.githubusercontent.com/31458531/183052708-216bc575-f02a-4af9-a2b1-e1baeab36457.png)
+
