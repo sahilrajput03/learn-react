@@ -1,5 +1,11 @@
 # Readme
 
+## TODO: Try immer or jotai for next project
+
+https://github.com/pmndrs/zustand
+
+https://github.com/pmndrs/jotai
+
 ## immer with existing setState hooks (run with existing code base with existing setState api)
 
 ```js
