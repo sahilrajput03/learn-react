@@ -1,5 +1,9 @@
 # Readme
 
+## Use npm trends for comparing npm packages
+
+https://npmtrends.com/react-async-vs-react-query-vs-zustand
+
 ## TODO: Try immer or jotai for next project
 
 https://github.com/pmndrs/zustand
