@@ -2,7 +2,7 @@
 
 ## react-query is companies standard now
 
-Date: 20 Aug, 2022
+Date: 20 Aug, 2022, Souce: https://npmtrends.com/react-query
 
 ![image](https://user-images.githubusercontent.com/31458531/185748459-b5d07422-df5b-4254-9aad-0c3e893c542b.png)
 
