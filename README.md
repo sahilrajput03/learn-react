@@ -1,5 +1,10 @@
 # Readme
 
+## YO! We can run multiple debugger i.e,. frontend and backend
+
+![image](https://user-images.githubusercontent.com/31458531/185749877-762ee0e5-583b-4993-9acf-95c02ea3f3cc.png)
+
+
 ## react-query is companies standard now
 
 Date: 20 Aug, 2022, Souce: https://npmtrends.com/react-query
