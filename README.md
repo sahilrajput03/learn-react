@@ -1,5 +1,12 @@
 # Readme
 
+## Use vscode debugger to get the return value of a component
+
+FYI: This should be done under parental advice only coz it produces no use at all. :LOL:
+
+![image](https://user-images.githubusercontent.com/31458531/185740538-92dd74a7-6582-406a-960d-eab52ce4e5d5.png)
+
+
 ## Use npm trends for comparing npm packages
 
 https://npmtrends.com/react-async-vs-react-query-vs-zustand
