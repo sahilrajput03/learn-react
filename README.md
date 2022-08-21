@@ -84,6 +84,7 @@ We need to have a chrome running with debugging on i.e, we can do it via: (*use 
 
 Merged repos:
 
+- `absolute-path-cra`
 - react-app as `template-js-vite` directory
 - `simple_service_worker`
 - `react-markdown-serve-markedjs`
