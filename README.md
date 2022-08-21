@@ -1,6 +1,52 @@
 # Readme
 
+## YO! We can run multiple debugger i.e,. frontend and backend
+
+![image](https://user-images.githubusercontent.com/31458531/185749877-762ee0e5-583b-4993-9acf-95c02ea3f3cc.png)
+
+
+## react-query is companies standard now
+
+Date: 20 Aug, 2022, Souce: https://npmtrends.com/react-query
+
+![image](https://user-images.githubusercontent.com/31458531/185748459-b5d07422-df5b-4254-9aad-0c3e893c542b.png)
+
+
+## Use vscode debugger to get the return value of a component
+
+FYI: This should be done under parental advice only coz it produces no use at all. :LOL:
+
+![image](https://user-images.githubusercontent.com/31458531/185740538-92dd74a7-6582-406a-960d-eab52ce4e5d5.png)
+
+
+## Use npm trends for comparing npm packages
+
+https://npmtrends.com/react-async-vs-react-query-vs-zustand
+
+## TODO: Try immer or jotai for next project
+
+https://github.com/pmndrs/zustand
+
+https://github.com/pmndrs/jotai
+
+## immer with existing setState hooks (run with existing code base with existing setState api)
+
+```js
+import produce from 'immer'
+
+// source: https://github.com/sahilrajput03/learn-react/blob/main/warikoo-time-manager/src/App.js
+const [_, setData] = useData()
+const setDataImmer = (cb) => {
+	setData((data) => produce(data, cb))
+}
+const onClickUrgent = () => {
+	setDataImmer((data) => void (data.todos[idx].urgent = !data.todos[idx].urgent))
+}
+```
+
 ## React tracked with immer (prefer jotai though, its much popular and devleoped on github right now)
+
+**Directly using useImmer hook? Refer this reply from Daishi: [Click here](https://github.com/dai-shi/react-tracked/issues/135#issuecomment-1016978979)**
 
 https://react-tracked.js.org/docs/tutorial-03/
 
