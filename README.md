@@ -1,6 +1,6 @@
 # Readme
 
-## It is this simple to create a popup in react
+## Create popups with `Popper` in react (vanilla pop up)
 
 Source: [w3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp)
 
