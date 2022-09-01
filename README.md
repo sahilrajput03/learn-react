@@ -86,6 +86,11 @@ const PopupInitial = () => {
 		background: rgb(128 128 128 / 51%);
 
 		.popup__contents {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			
 			box-shadow: 0 0px 30px 2px grey;
 			border-radius: 20px;
 			max-width: 500px;
@@ -94,11 +99,6 @@ const PopupInitial = () => {
 			margin: auto;
 			margin-top: 100px;
 			background: white;
-			// flex
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-start;
-			align-items: center;
 
 			.heading{
 				font-size: 3rem;
