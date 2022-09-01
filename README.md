@@ -52,7 +52,7 @@ const Popper = ({element, isOpen}) => {
 ```
 
 ```scss
-// for anything new to start
+// scss
 .popper__default {
 	.popup__container {
 		border: 2px solid green;
