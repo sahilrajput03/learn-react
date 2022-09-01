@@ -6,7 +6,6 @@ Source: [w3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp)
 
 ```jsx
 import {useState} from 'react'
-
 export default function Test() {
 	const [isOpen, setIsOpen] = useState(false)
 	const togglePopup = () => setIsOpen(!isOpen)
@@ -24,7 +23,6 @@ export default function Test() {
 		</div>
 	)
 }
-
 const Popup1 = ({controls}) => {
 	const [isOpen, setIsOpen] = controls
 	const closePopup = () => setIsOpen(false)
@@ -42,10 +40,9 @@ const Popup1 = ({controls}) => {
 		</>
 	)
 }
-
 const Popper = ({element, isOpen}) => {
 	return (
-		<div className='my__popup'>
+		<div className='popper__default'>
 			<div className={`popup__container ${isOpen ? 'show' : ''}`}>
 				<div className={`popup__contents `}>{element}</div>
 			</div>
@@ -55,8 +52,8 @@ const Popper = ({element, isOpen}) => {
 ```
 
 ```scss
-// scss
-.my__popup {
+// for anything new to start
+.popper__default {
 	.popup__container {
 		border: 2px solid green;
 		display: none;
@@ -88,25 +85,19 @@ const Popper = ({element, isOpen}) => {
 			display: block;
 		}
 	}
-	.btn {
-		padding: 20px;
-		color: white;
-		background: deepskyblue;
-		outline: none;
-		border-radius: 15px;
-	}
+}
+.btn {
+	padding: 20px;
+	color: white;
+	background: deepskyblue;
+	outline: none;
+	border-radius: 15px;
 }
 ```
 
 Output:
 
-Popup Initial: 
-
-![image](https://user-images.githubusercontent.com/31458531/187980371-902c54c4-54cb-4ceb-84bc-f57c0cd3caf1.png)
-
-Popup Final:
-
-![image](https://user-images.githubusercontent.com/31458531/187985378-aac3e69f-cfcc-4a13-8c46-2d3df6901067.png)
+![image](https://user-images.githubusercontent.com/31458531/187991294-5523ba63-4b25-495c-b613-74f0b0bef557.png)
 
 
 ## YO! We can run multiple debugger i.e,. frontend and backend
