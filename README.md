@@ -1,5 +1,73 @@
 # Readme
 
+## It is this simple to create a popup in react
+
+Source: [w3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp)
+
+```jsx
+import {useState} from 'react'
+
+export default function Test() {
+	const [isOpen, setIsOpen] = useState(false)
+
+	const togglePopup = () => setIsOpen(!isOpen)
+
+	return (
+		<div>
+			<h1>Testing It</h1>
+
+			<button className='btn-popup' onClick={togglePopup}>
+				{isOpen ? 'Open Popup' : 'Close Popup'}
+			</button>
+
+			<div className={`popup ${isOpen ? 'show' : ''}`}>
+				<div>This is popup</div>
+				<div>This is popup</div>
+				<div>This is popup</div>
+				<div>This is popup</div>
+				<br />
+				<button className='btn-popup' onClick={() => setIsOpen(false)}>
+					Close popup
+				</button>
+			</div>
+		</div>
+	)
+}
+```
+
+```scss
+.popup {
+	display: none;
+	position: fixed;
+	right: 50%;
+	box-shadow: 0 0px 30px 2px grey;
+	border-radius: 20px;
+	min-width: 500px;
+	min-height: 600px;
+	padding: 20px 50px;
+	z-index: 9;
+
+	// # Centered popup with fixed distance from top #
+	top: 100px; // set static distance from top
+	transform: translateX(50%); // center horizontally only
+
+	// # Centered popup both horizontally and vertically #
+	// top: 50%; // distance from top
+	// transform: translate(50%, -50%); // center horizontall and vertically
+}
+.show {
+	display: block;
+}
+
+.btn-popup{
+	padding: 20px;
+	color: white;
+	background: deepskyblue;
+	outline: none;
+	border-radius: 15px;
+}
+```
+
 ## YO! We can run multiple debugger i.e,. frontend and backend
 
 FYI: With `nextjs` the only nodejs debugger debugs both frontend and backed breakpoints well, yo.
