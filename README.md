@@ -153,7 +153,13 @@ const PopupInitial = () => {
 
 Output:
 
+Popup Initial: 
+
 ![image](https://user-images.githubusercontent.com/31458531/187980371-902c54c4-54cb-4ceb-84bc-f57c0cd3caf1.png)
+
+Popup Final:
+
+![image](https://user-images.githubusercontent.com/31458531/187985378-aac3e69f-cfcc-4a13-8c46-2d3df6901067.png)
 
 
 ## YO! We can run multiple debugger i.e,. frontend and backend
