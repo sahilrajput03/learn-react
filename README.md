@@ -68,6 +68,11 @@ export default function Test() {
 }
 ```
 
+Output:
+
+![image](https://user-images.githubusercontent.com/31458531/187980371-902c54c4-54cb-4ceb-84bc-f57c0cd3caf1.png)
+
+
 ## YO! We can run multiple debugger i.e,. frontend and backend
 
 FYI: With `nextjs` the only nodejs debugger debugs both frontend and backed breakpoints well, yo.
