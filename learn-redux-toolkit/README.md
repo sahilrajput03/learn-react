@@ -1,5 +1,7 @@
 # Learn redux-toolkit
 
+Source of this project: [Quick Start Guide](https://redux-toolkit.js.org/tutorials/quick-start) @ `redux-toolkit` docs and [`createReducer()`](https://redux-toolkit.js.org/api/createReducer).
+
 [@Github](https://github.com/reduxjs/redux-toolkit)
 
 Api:
