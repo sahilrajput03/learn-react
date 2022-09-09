@@ -2,7 +2,8 @@
 
 ## Animate things easily:
 
-[Autoanimate](https://auto-animate.formkit.com/), [@Github](https://github.com/formkit/auto-animate) 5.2k* - Source: t3: https://youtu.be/V8-z891_DN4
+- [Autoanimate](https://auto-animate.formkit.com/), [@Github](https://github.com/formkit/auto-animate) 5.2k* - Source: t3: https://youtu.be/V8-z891_DN4
+- https://github.com/framer/motion - Also has a web tool for building awesome prototypes, for example [visit here](https://github.com/framer/motion).
 
 ## Online IDE's for react
 
