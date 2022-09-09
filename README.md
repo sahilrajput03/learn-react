@@ -1,5 +1,9 @@
 # Readme
 
+## Animate things easily:
+
+[Autoanimate](https://auto-animate.formkit.com/), [@Github](https://github.com/formkit/auto-animate) 5.2k* - Source: t3: https://youtu.be/V8-z891_DN4
+
 ## Online IDE's for react
 
 ![image](https://user-images.githubusercontent.com/31458531/189416199-6e35e585-d10f-4496-8d38-f578c554c162.png)
