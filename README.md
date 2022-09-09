@@ -1,5 +1,32 @@
 # Readme
 
+## Render static html on server using `createElement` api
+
+```js
+const ReactDOMServer = require("react-dom/server");
+const react = require("react");
+
+const A = react.createElement(
+  "div",
+  {
+    car: "merces",
+  },
+  null
+);
+
+const MyElement = react.createElement(
+  "div",
+  {
+    foo: "bar",
+  },
+  A
+);
+
+const data = ReactDOMServer.renderToStaticMarkup(MyElement);
+
+console.log("my generated html:", data);
+```
+
 ## Create popups with `Popper` in react (vanilla pop up)
 
 Source: [w3schools](https://www.w3schools.com/howto/howto_js_popup_form.asp)
