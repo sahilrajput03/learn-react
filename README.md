@@ -5,6 +5,15 @@
 - [Autoanimate](https://auto-animate.formkit.com/), [@Github](https://github.com/formkit/auto-animate) 5.2k* - Source: t3: https://youtu.be/V8-z891_DN4
 - https://github.com/framer/motion - Also has a web tool for building awesome prototypes, for example [visit here](https://github.com/framer/motion).
 
+## mdx with react
+
+Source: [Amzing react conf video](https://youtu.be/zL8cz2W0z34?list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa)
+
+![image](https://user-images.githubusercontent.com/31458531/189496294-d6c6930e-86e7-481a-a7ad-8e26aa8bbccf.png)
+
+![image](https://user-images.githubusercontent.com/31458531/189496300-0975cf84-47db-45bd-9343-da16b4410f78.png)
+
+
 ## Online IDE's for react
 
 ![image](https://user-images.githubusercontent.com/31458531/189416199-6e35e585-d10f-4496-8d38-f578c554c162.png)
