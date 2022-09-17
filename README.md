@@ -1,6 +1,16 @@
 # Readme
 
+
+## useAxios
+
+Inspiration: https://github.com/axios/axios/blob/main/ECOSYSTEM.md
+
+Find implementation in folder: `with-msw-and-useAxios`
+
+
 ## msw
+
+Find implementation in folder: `with-msw-and-useAxios`
 
 - Github: [msw](https://github.com/mswjs/examples)
 - See usage examples: [Click here](https://github.com/mswjs/examples)
