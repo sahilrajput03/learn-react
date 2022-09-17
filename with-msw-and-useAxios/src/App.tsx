@@ -1,4 +1,4 @@
-import {memo, useEffect} from 'react'
+import {useEffect} from 'react'
 import './App.css'
 import {axiosInstance, paths, useServer} from './server'
 

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import App1 from './App1';
 import reportWebVitals from './reportWebVitals';
 import {worker} from "./mocks/browser";
 
@@ -12,6 +13,7 @@ worker.start({
 
     ReactDOM.render(
         <React.StrictMode>
+            {/* <App1/> */} {/** Component Mount on path change for sure! ~Sahil */}
             <App/>
         </React.StrictMode>,
         document.getElementById('root')
