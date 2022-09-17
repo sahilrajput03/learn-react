@@ -9,7 +9,7 @@ function App() {
 		axiosInstance.defaults.headers.common['Authorization'] = dataLogin?.authToken
 	}, [dataLogin?.authToken])
 
-	if (loadingLogin) return <p>Logging in...</p>
+	// if (loadingLogin) return <p>Logging in...</p> // this is bad way to show loading.. coz it causes the child component to unmount unnecessarily! 100 taka baat!!
 	if (errorLogin) return <p>Error in login!</p>
 
 	const loginHandle = () => {
@@ -25,7 +25,7 @@ function App() {
 		<div className='App'>
 			<pre>{JSON.stringify(dataLogin, null, 2)}</pre>
 			<br />
-			<button onClick={loginHandle}>Login</button>
+			<button onClick={loginHandle}>{loadingLogin ? 'LOADING' : 'Login'}</button>
 			<Client1 />
 		</div>
 	)
@@ -46,7 +46,7 @@ const Client1 = () => {
 	return (
 		<div>
 			<pre>{JSON.stringify(dataClient1, null, 2)}</pre>
-			<button onClick={refetch as any}>fetch client</button>
+			<button onClick={refetch as any}>{loadingClient1 ? 'LOADING' : 'fetch client'}</button>
 		</div>
 	)
 }
