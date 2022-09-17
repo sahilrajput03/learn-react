@@ -2,6 +2,9 @@
 
 ## msw
 
+- Github: [msw](https://github.com/mswjs/examples)
+- See usage examples: [Click here](https://github.com/mswjs/examples)
+
 ![image](https://user-images.githubusercontent.com/31458531/190871378-704c97d0-4e5e-4b2b-8766-6c0509f9cd34.png)
 
 
