@@ -1,7 +1,7 @@
 # Readme
 
 
-## useAxios
+## useAxios - a very lovely hook
 
 Inspiration: https://github.com/axios/axios/blob/main/ECOSYSTEM.md
 
