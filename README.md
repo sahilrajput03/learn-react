@@ -6,17 +6,15 @@ Best explanation of this router(**beats the official docs video as well**): [Cli
 
 ## useAxios - a very lovely hook
 
-Inspiration: https://github.com/axios/axios/blob/main/ECOSYSTEM.md
-
-Find implementation in folder: `with-msw-and-useAxios`
+- Inspiration: https://github.com/axios/axios/blob/main/ECOSYSTEM.md
+- Usage Example: [`with-msw-and-useAxios`](./with-msw-and-useAxios)
 
 
 ## msw
 
-Find implementation in folder: [`with-msw-and-useAxios`](./with-msw-and-useAxios)
-
 - Github: [msw](https://github.com/mswjs/examples)
-- See usage examples: [Click here](https://github.com/mswjs/examples)
+- Usage Example: [`with-msw-and-useAxios`](./with-msw-and-useAxios)
+- Official Examples: [Click here](https://github.com/mswjs/examples)
 
 ![image](https://user-images.githubusercontent.com/31458531/190871378-704c97d0-4e5e-4b2b-8766-6c0509f9cd34.png)
 
