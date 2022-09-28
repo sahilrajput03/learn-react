@@ -1,7 +1,7 @@
 # Readme
 
 Quick Links:
-- React Challenges: [Click here](./react-challenges)
+- React Challenges: [Click here](./react-challenges.md)
 
 ## Amazing Explanation of react-router v6.4
 
