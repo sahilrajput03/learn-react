@@ -3,6 +3,10 @@
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 
+## should I use memo() ?
+
+You should try moving the code up in the tree first and that can solve issues where you need to fix using `memo()`.
+
 ## Amazing Explanation of react-router v6.4
 
 Best explanation of this router(**beats the official docs video as well**): [Click here](https://www.youtube.com/watch?v=L2kzUg6IzxM)
