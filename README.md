@@ -3,6 +3,10 @@
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 
+## TODO: Make your own IDE in your website
+
+Amazing articel: https://www.joshwcomeau.com/react/next-level-playground/
+
 ## should I use memo() ?
 
 You should try moving the code up in the tree first and that can solve issues where you need to fix using `memo()`.
