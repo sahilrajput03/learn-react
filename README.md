@@ -1,19 +1,31 @@
 # Readme
 
+Quick Links:
+- React Challenges: [Click here](./react-challenges.md)
+
+## TODO: Make your own IDE in your website
+
+Amazing articel: https://www.joshwcomeau.com/react/next-level-playground/
+
+## should I use memo() ?
+
+You should try moving the code up in the tree first and that can solve issues where you need to fix using `memo()`.
+
+## Amazing Explanation of react-router v6.4
+
+Best explanation of this router(**beats the official docs video as well**): [Click here](https://www.youtube.com/watch?v=L2kzUg6IzxM)
 
 ## useAxios - a very lovely hook
 
-Inspiration: https://github.com/axios/axios/blob/main/ECOSYSTEM.md
-
-Find implementation in folder: `with-msw-and-useAxios`
+- Inspiration: https://github.com/axios/axios/blob/main/ECOSYSTEM.md
+- Usage Example: [`with-msw-and-useAxios`](./with-msw-and-useAxios)
 
 
 ## msw
 
-Find implementation in folder: `with-msw-and-useAxios`
-
 - Github: [msw](https://github.com/mswjs/examples)
-- See usage examples: [Click here](https://github.com/mswjs/examples)
+- Usage Example: [`with-msw-and-useAxios`](./with-msw-and-useAxios)
+- Official Examples: [Click here](https://github.com/mswjs/examples)
 
 ![image](https://user-images.githubusercontent.com/31458531/190871378-704c97d0-4e5e-4b2b-8766-6c0509f9cd34.png)
 
