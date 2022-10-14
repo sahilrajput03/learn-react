@@ -3,6 +3,12 @@
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 
+## Can we give `name` attribute to all html elements and get the property vaulue via `e.target.name`?
+
+No, `name` attribute only applies to a list of elements i.e, button, fieldset, form, iframe, input, map, meta, object, output, param, select, textarea. So you can see `div` and `span` are **not** in this list. Source: [Click here](https://www.w3schools.com/tags/att_name.asp).
+
+Why the question is important? Sometimes in react components people use name property to set input values and other values to store in state via a generic dynamic `name` based properties for respecitve values from the user and I THINK ITS NOT OPTIMAL TO USE THAT INSTEAD I SUGGEST TO USE some functin generator like passing to `onChange={() => setField('filedIdentifierName')}` as prop. THAT ROCSK EVERYWHERE AND QUITE READABLE TO EVERYONE.
+
 ## Using context with typescript
 
 You may find its implementations in following project codes:
