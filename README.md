@@ -3,6 +3,41 @@
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 
+## Using context with typescript
+
+Source: `totel-latest` project in `reference-projects` repository.
+
+```tsx
+import {createContext, useContext, useEffect, useState, ReactNode} from 'react'
+import produce from 'immer'
+const AppDataContext = createContext<any>({loading: true})
+
+export const useAppData = () => useContext(AppDataContext)
+
+interface Props {
+	children?: ReactNode
+	// any props that come into the component
+}
+type AppData = any
+
+type cbT = (appData: AppData) => void
+
+export function UserDataProvider({children}: Props) {
+	const _state = useState<AppData>({})
+	const [appData, setAppData] = _state
+	const setAppDataImmer = (cb: cbT) => setAppData((data: any) => produce(data, cb))
+
+	useEffect(() => {
+		async function onPageLoad() {}
+		onPageLoad()
+	}, [])
+
+	// NOTE: you *might* need to memoize this value
+	// Learn more in http://kcd.im/optimize-context
+	return <AppDataContext.Provider value={[appData, setAppDataImmer]}> {children} </AppDataContext.Provider>
+}
+```
+
 ## TODO: Make your own IDE in your website
 
 Amazing articel: https://www.joshwcomeau.com/react/next-level-playground/
