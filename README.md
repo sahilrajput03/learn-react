@@ -5,7 +5,7 @@ Quick Links:
 
 ## Using context with typescript
 
-Source: `totel-latest` project in `reference-projects` repository.
+Source: `totel-latest` project in `reference-projects` repository. UPDATE: Implemented this to `decentralized-exchange` client app as well(nextjs-typescript).
 
 ```tsx
 import {createContext, useContext, useEffect, useState, ReactNode} from 'react'
