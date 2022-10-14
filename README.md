@@ -5,7 +5,7 @@ Quick Links:
 
 ## Using context with typescript
 
-Project Implementations:
+You may find its implementations in following project codes:
 - `totel-latest` project in `reference-projects` repository.
 - `decentralized-exchange` client app as well(nextjs-typescript).
 
