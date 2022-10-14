@@ -3,6 +3,10 @@
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 
+## css intellisence in vscode for all attached files
+
+Source: https://stackoverflow.com/a/49167878/10012446
+
 ## Can we give `name` attribute to all html elements and get the property vaulue via `e.target.name`?
 
 No, `name` attribute only applies to a list of elements i.e, button, fieldset, form, iframe, input, map, meta, object, output, param, select, textarea. So you can see `div` and `span` are **not** in this list. Source: [Click here](https://www.w3schools.com/tags/att_name.asp).
