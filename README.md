@@ -22,7 +22,7 @@ type AppData = any
 
 type cbT = (appData: AppData) => void
 
-export function UserDataProvider({children}: Props) {
+export function AppDataProvider({children}: Props) {
 	const _state = useState<AppData>({})
 	const [appData, setAppData] = _state
 	const setAppDataImmer = (cb: cbT) => setAppData((data: any) => produce(data, cb))
