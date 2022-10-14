@@ -3,6 +3,10 @@
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 
+## This is the best debugging technique to debug values of react components on earth
+
+![image](https://user-images.githubusercontent.com/31458531/195896948-17564f04-9958-4edd-b6fc-5410d256b695.png)
+
 ## css intellisence in vscode for all attached files
 
 Source: https://stackoverflow.com/a/49167878/10012446
