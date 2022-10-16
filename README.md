@@ -19,6 +19,8 @@ Why the question is important? Sometimes in react components people use name pro
 
 ## Using context with typescript
 
+**UPDATE:** Using immer tip `appData.trades.splice(0)` to delete all items from the array. Source: [Click here](https://immerjs.github.io/immer/update-patterns/) to know more array mutations with immerjs.
+
 You may find its implementations in following project codes:
 - `totel-latest` project in `reference-projects` repository.
 - `decentralized-exchange` client app as well(nextjs-typescript).
