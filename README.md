@@ -5,6 +5,10 @@ Quick Links:
 
 ## This is the best debugging technique to debug values of react components on earth
 
+![image](https://user-images.githubusercontent.com/31458531/196185318-3cc804ea-c763-4884-8149-896a425f7b61.png)
+
+or attach anyother function/object to window:
+
 ![image](https://user-images.githubusercontent.com/31458531/195896948-17564f04-9958-4edd-b6fc-5410d256b695.png)
 
 ## css intellisence in vscode for all attached files
