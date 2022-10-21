@@ -5,6 +5,8 @@ Quick Links:
 
 ## How `Object.defineProperty` works?
 
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+
 ```js
 let c = {}
 // assigns `c.a = 2`
