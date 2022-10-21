@@ -3,6 +3,14 @@
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 
+## How `Object.defineProperty` works?
+
+```js
+let c = {}
+// assigns `c.a = 2`
+Object.defineProperty(c, 'a', {value: 2})
+```
+
 ## This is the best debugging technique to debug values of react components on earth
 
 ![image](https://user-images.githubusercontent.com/31458531/196185318-3cc804ea-c763-4884-8149-896a425f7b61.png)
