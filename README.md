@@ -2,6 +2,7 @@
 
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
+- KCD's Calls: https://kentcdodds.com/calls
 
 ## How `Object.defineProperty` works?
 
