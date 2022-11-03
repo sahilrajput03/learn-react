@@ -4,6 +4,10 @@ Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
 
+## Learn about cnd cache headers
+
+https://twitter.com/BHolmesDev/status/1588168499507216384
+
 ## How `Object.defineProperty` works?
 
 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
