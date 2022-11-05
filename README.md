@@ -2,6 +2,78 @@
 
 Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
+- KCD's Calls: [Click here](https://kentcdodds.com/calls)
+
+## Learn about cnd cache headers
+
+https://twitter.com/BHolmesDev/status/1588168499507216384
+
+## How `Object.defineProperty` works?
+
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+
+```js
+let c = {}
+// assigns `c.a = 2`
+Object.defineProperty(c, 'a', {value: 2})
+```
+
+## This is the best debugging technique to debug values of react components on earth
+
+![image](https://user-images.githubusercontent.com/31458531/196185318-3cc804ea-c763-4884-8149-896a425f7b61.png)
+
+or attach anyother function/object to window:
+
+![image](https://user-images.githubusercontent.com/31458531/195896948-17564f04-9958-4edd-b6fc-5410d256b695.png)
+
+## css intellisence in vscode for all attached files
+
+Source: https://stackoverflow.com/a/49167878/10012446
+
+## Can we give `name` attribute to all html elements and get the property vaulue via `e.target.name`?
+
+No, `name` attribute only applies to a list of elements i.e, button, fieldset, form, iframe, input, map, meta, object, output, param, select, textarea. So you can see `div` and `span` are **not** in this list. Source: [Click here](https://www.w3schools.com/tags/att_name.asp).
+
+Why the question is important? Sometimes in react components people use name property to set input values and other values to store in state via a generic dynamic `name` based properties for respecitve values from the user and I THINK ITS NOT OPTIMAL TO USE THAT INSTEAD I SUGGEST TO USE some functin generator like passing to `onChange={() => setField('filedIdentifierName')}` as prop. THAT ROCSK EVERYWHERE AND QUITE READABLE TO EVERYONE.
+
+## Using context with typescript
+
+**UPDATE:** Using immer tip `appData.trades.splice(0)` to delete all items from the array. Source: [Click here](https://immerjs.github.io/immer/update-patterns/) to know more array mutations with immerjs.
+
+You may find its implementations in following project codes:
+- `totel-latest` project in `reference-projects` repository.
+- `decentralized-exchange` client app as well(nextjs-typescript).
+
+```tsx
+import {createContext, useContext, useEffect, useState, ReactNode} from 'react'
+import produce from 'immer'
+const AppDataContext = createContext<any>({loading: true})
+
+export const useAppData = () => useContext(AppDataContext)
+
+interface Props {
+	children?: ReactNode
+	// any props that come into the component
+}
+type AppData = any
+
+type cbT = (appData: AppData) => void
+
+export function AppDataProvider({children}: Props) {
+	const _state = useState<AppData>({})
+	const [appData, setAppData] = _state
+	const setAppDataImmer = (cb: cbT) => setAppData((data: any) => produce(data, cb))
+
+	useEffect(() => {
+		async function onPageLoad() {}
+		onPageLoad()
+	}, [])
+
+	// NOTE: you *might* need to memoize this value
+	// Learn more in http://kcd.im/optimize-context
+	return <AppDataContext.Provider value={[appData, setAppDataImmer]}> {children} </AppDataContext.Provider>
+}
+```
 
 ## TODO: Make your own IDE in your website
 
