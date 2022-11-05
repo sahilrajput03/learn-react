@@ -1,0 +1,98 @@
+let ouputShape = [
+  {
+    text: "Documents",
+    hasChildren: true,
+    id: "eba47b3e-c683-406e-b5b0-db4d1294a7b9",
+    parentId: 0,
+  },
+  {
+    text: "my-new-directory",
+    hasChildren: true,
+    id: "eba47b3e-c683-406e-b5b0-db4d1294a7b9db4d1294a7b9",
+    parentId: "eba47b3e-c683-406e-b5b0-db4d1294a7b9",
+  },
+  {
+    text: "Projects",
+    hasChildren: true,
+    id: "9fca0716-e44a-46e6-adaf-8f29de54c56b",
+    parentId: "eba47b3e-c683-406e-b5b0-db4d1294a7b9",
+  },
+  {
+    text: "About.rtf",
+    hasChildren: false,
+    id: "77486884-394f-48ec-90e0-442f460a3f33",
+    parentId: "9fca0716-e44a-46e6-adaf-8f29de54c56b",
+  },
+  {
+    text: "Passwords.rtf",
+    hasChildren: false,
+    id: "fb054e18-8746-4279-8364-ffb7b8717739",
+    parentId: "9fca0716-e44a-46e6-adaf-8f29de54c56b",
+  },
+  {
+    text: "About.xml",
+    hasChildren: false,
+    id: "6ca674b6-a83a-4fe6-b1a2-ea140310da1c",
+    parentId: "eba47b3e-c683-406e-b5b0-db4d1294a7b9",
+  },
+  {
+    text: "Managers.rtf",
+    hasChildren: false,
+    id: "739e14e8-8fcd-4d4d-a490-470f9af7888c",
+    parentId: "eba47b3e-c683-406e-b5b0-db4d1294a7b9",
+  },
+  {
+    text: "ToDo.txt",
+    hasChildren: false,
+    id: "a6463f4b-6d4a-4a65-a11c-36c65d9fcb89",
+    parentId: "eba47b3e-c683-406e-b5b0-db4d1294a7b9",
+  },
+  {
+    text: "Images",
+    hasChildren: true,
+    id: "96944208-f2de-4e9f-a1c9-a50a73d9cbc9",
+    parentId: 0,
+  },
+  {
+    text: "logo.png",
+    hasChildren: false,
+    id: "0d7a9133-6b9e-4133-adc5-9de4fcecf299",
+    parentId: "96944208-f2de-4e9f-a1c9-a50a73d9cbc9",
+  },
+  {
+    text: "banner.gif",
+    hasChildren: false,
+    id: "13bb9932-36ed-40d8-9095-a7479774a02a",
+    parentId: "96944208-f2de-4e9f-a1c9-a50a73d9cbc9",
+  },
+  {
+    text: "System",
+    hasChildren: true,
+    id: "59e169a5-2755-463b-9f75-586fd3a13b07",
+    parentId: 0,
+  },
+  {
+    text: "Employees.txt",
+    hasChildren: false,
+    id: "45e2c25b-d507-4b19-9017-bfd464e1dfe1",
+    parentId: "59e169a5-2755-463b-9f75-586fd3a13b07",
+  },
+  {
+    text: "PasswordList.txt",
+    hasChildren: false,
+    id: "d5871566-624f-4484-8283-2dd5865525c2",
+    parentId: "59e169a5-2755-463b-9f75-586fd3a13b07",
+  },
+  {
+    text: "Description.rtf",
+    hasChildren: false,
+    id: "9780a9f8-2693-4f8c-85f0-fa0a02ae912b",
+    parentId: 0,
+  },
+  {
+    text: "Description.txt",
+    hasChildren: false,
+    id: "e658ce16-92e1-4c2b-8e9f-e5ebc5af0934",
+    parentId: 0,
+  },
+];
