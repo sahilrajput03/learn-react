@@ -4,6 +4,10 @@ Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
 
+## Amazing html attributes you would never know oterwise
+
+https://twitter.com/Prathkum/status/1588943218707779584
+
 ## Learn about cnd cache headers
 
 https://twitter.com/BHolmesDev/status/1588168499507216384
