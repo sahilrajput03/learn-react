@@ -4,6 +4,10 @@ Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
 
+## Make useContext fast
+
+[Click here](https://www.youtube.com/watch?v=ZKlXqrcBx88)
+
 ## `use` hook in react `experimental` version
 
 [Click here](https://www.youtube.com/watch?v=ytXM05PVcFU)
