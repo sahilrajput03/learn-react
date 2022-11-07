@@ -4,6 +4,10 @@ Quick Links:
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
 
+## `use` hook in react `experimental` version
+
+[Click here](https://www.youtube.com/watch?v=ytXM05PVcFU)
+
 ## Amazing html attributes you would never know oterwise
 
 https://twitter.com/Prathkum/status/1588943218707779584
