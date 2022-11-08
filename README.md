@@ -1,12 +1,21 @@
 # Readme
 
-Quick Links:
+**Quick Links:**
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
 
+**TODO:**
+- Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
+
 ## Make useContext fast
 
-[Click here](https://www.youtube.com/watch?v=ZKlXqrcBx88)
+Source: [Click here](https://www.youtube.com/watch?v=ZKlXqrcBx88) @ youtube **by Jack Herrington**
+
+Github Repo: [Click here](https://github.com/jherr/fast-react-context), It also forked in my repos as well for longetivity.
+
+Interesting thing by a commentor on above video: ![image](https://user-images.githubusercontent.com/31458531/200572888-35b06841-0060-4d71-8b35-9bd8dffb9233.png)
+
+
 
 ## `use` hook in react `experimental` version
 
