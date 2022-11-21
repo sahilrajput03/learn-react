@@ -7,6 +7,10 @@
 **TODO:**
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Tanstack router amazing
+
+[Click here](https://youtu.be/LVzG3nncE4M)
+
 ## Make useContext fast
 
 Source: [Click here](https://www.youtube.com/watch?v=ZKlXqrcBx88) @ youtube **by Jack Herrington**
