@@ -57,11 +57,11 @@ const topLevelRedirectPath = '/home'; // TODO: Base this on whether or not user 
 3. `Dating.tsx`
 
 ```jsx
-    <Routes>
-      <Route path="/" element={<Navigate to="setup" replace />} />
-      <Route path="/welcome" element={<DatingWelcome />} />
-      <Route path="/setup/*" element={<DatingSetup />} />
-    </Routes>
+<Routes>
+	<Route path="/" element={<Navigate to="setup" replace />} />
+	<Route path="/welcome" element={<DatingWelcome />} />
+	<Route path="/setup/*" element={<DatingSetup />} />
+</Routes>
 ```
 
 
