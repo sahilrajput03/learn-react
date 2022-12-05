@@ -54,7 +54,7 @@ const topLevelRedirectPath = '/home'; // TODO: Base this on whether or not user 
 </Routes>
 ```
 
-3. `Dating.tsx`
+3. `Dating.tsx` (Last Route of "Authenticated routes")
 
 **Point:**
 	- <UnauthenticatedPageWrapper /> component provides a layout to the content of page <NotFound/> component in last Route.
