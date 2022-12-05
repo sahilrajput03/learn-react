@@ -61,6 +61,7 @@ const topLevelRedirectPath = '/home'; // TODO: Base this on whether or not user 
 	<Route path="/" element={<Navigate to="setup" replace />} />
 	<Route path="/welcome" element={<DatingWelcome />} />
 	<Route path="/setup/*" element={<DatingSetup />} />
+	<Route path="*" element={<UnauthenticatedPageWrapper><NotFound /></UnauthenticatedPageWrapper>} />
 </Routes>
 ```
 
