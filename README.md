@@ -13,13 +13,10 @@
 
 **tldr:**
 
-*fyi: Using `exact` prop is necessary otherwise react-router doesn't recognize other route entries and only shows `Home` component on all routes.*
-
 Snippet from above codesandbox link, **the component `Users` is not going to unmount when we are changing the `count` state (using `render`) but `About` component does unmount on each `count` state change thus creating unnecessary unmouns (using `component`).** ALSO: Both `render` and `component` way of using pass updated props successfully to them on count `state` change.
 
 ```jsx
 <Switch>
-        <Route exact path="/" component={Home} />
         <Route path="/about" component={() => <About count={count} />} />
         <Route
           path="/users"
