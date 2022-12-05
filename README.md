@@ -25,7 +25,7 @@ function App() {
 }
 ```
 
-## `react-router-dom` vt, what does `replace=true` prop does?
+## `react-router-dom` v5, what does `replace=true` prop does?
 
 Source: [Docs @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/History_API), [react-router-dom v5 Docs](https://v5.reactrouter.com/web/api/Link/replace-bool)
 
