@@ -7,7 +7,24 @@
 **TODO:**
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
-## `render` vs. `component` props in `<Route />` component `react-router-dom`
+## Myth breaking ~Sahil
+
+Changing the `count` state does **not** unmount the `About` component. *Tested by using the useEffect's return function.*
+
+```jsx
+function App() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div className="App">
+      <button onClick={() => setCount(count + 1)}>{count}</button>
+      <About count={count} />
+    </div>
+    )
+}
+```
+
+## Learn `render` vs. `component` props in `<Route />` component `react-router-dom`
 
 **My awesome codesandbox Link: [Click here](https://codesandbox.io/p/sandbox/vigorous-artem-ce7zhk?utm_source=dotnew&file=%2Fsrc%2FApp.tsx&selection=%5B%7B%22endColumn%22%3A64%2C%22endLineNumber%22%3A5%2C%22startColumn%22%3A64%2C%22startLineNumber%22%3A5%7D%5D)**
 
