@@ -25,9 +25,9 @@ function App() {
 }
 ```
 
-## react-router-dom v6, what does `replace=true` prop does?
+## `react-router-dom` vt, what does `replace=true` prop does?
 
-Source: [Docs @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
+Source: [Docs @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/History_API), [react-router-dom v5 Docs](https://v5.reactrouter.com/web/api/Link/replace-bool)
 
 It replaces the current page in history to desired page so it will provide experience like: Page1 > Page2 (using replace=true to navigate to page3) > Page3. Now if you press back button in browser then you get back to Page1 instead of Page2 becoz you replaced history object.
 
