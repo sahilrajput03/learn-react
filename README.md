@@ -7,6 +7,27 @@
 **TODO:**
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## `render` vs. `component` props in `<Route />` component `react-router-dom`
+
+**My awesome codesandbox Link: [Click here](https://codesandbox.io/p/sandbox/vigorous-artem-ce7zhk?utm_source=dotnew&file=%2Fsrc%2FApp.tsx&selection=%5B%7B%22endColumn%22%3A64%2C%22endLineNumber%22%3A5%2C%22startColumn%22%3A64%2C%22startLineNumber%22%3A5%7D%5D)**
+
+**tldr:**
+
+*fyi: Using `exact` prop is necessary otherwise react-router doesn't recognize other route entries and only shows `Home` component on all routes.*
+
+Snippet from above codesandbox link, **the component `Users` is not going to unmount when we are changing the `count` state (using `render`) but `About` component does unmount on each `count` state change thus creating unnecessary unmouns (using `component`).** ALSO: Both `render` and `component` way of using pass updated props successfully to them on count `state` change.
+
+```jsx
+<Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={() => <About count={count} />} />
+        <Route
+          path="/users"
+          render={(routeProps) => <Users {...routeProps} count={count} />}
+        />
+</Switch>
+```
+
 ## Tanstack router amazing
 
 [Click here](https://youtu.be/LVzG3nncE4M)
