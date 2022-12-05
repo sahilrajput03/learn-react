@@ -25,6 +25,10 @@ function App() {
 }
 ```
 
+## react-router-dom v6
+
+<Route /> Component has no `component` and `render` as we had in `react-router-dom@5` as you can see the type Route object type here: [Click here](https://reactrouter.com/en/main/route/route#type-declaration).
+
 ## Learn `render` vs. `component` props in `<Route />` component `react-router-dom`
 
 **My awesome codesandbox Link: [Click here](https://codesandbox.io/p/sandbox/vigorous-artem-ce7zhk?utm_source=dotnew&file=%2Fsrc%2FApp.tsx&selection=%5B%7B%22endColumn%22%3A64%2C%22endLineNumber%22%3A5%2C%22startColumn%22%3A64%2C%22startLineNumber%22%3A5%7D%5D)**
