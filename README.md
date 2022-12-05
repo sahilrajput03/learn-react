@@ -25,6 +25,46 @@ function App() {
 }
 ```
 
+## Learn Nested Routing, react-router-dom v6
+
+1. `index.tsx`
+
+```jsx
+<BrowserRouter>
+	<App />
+</BrowserRouter>
+```
+
+2. `app.tsx`
+
+```jsx
+const topLevelRedirectPath = '/home'; // TODO: Base this on whether or not user is signed in
+
+<Routes>
+	{/* Top level redirect */}
+	<Route path="/" element={<Navigate to={topLevelRedirectPath} replace />} />
+
+	{/* Unauthenticated routes */}
+	<Route path="/sign-in" element={<SignIn />} />
+	<Route path="/onboarding/*" element={<Onboarding />} />
+	
+	{/* Authenticated routes */}
+	<Route path="/home" element={<Home />} />
+	<Route path="/dating/*" element={<Dating />} />
+</Routes>
+```
+
+3. `Dating.tsx`
+
+```jsx
+    <Routes>
+      <Route path="/" element={<Navigate to="setup" replace />} />
+      <Route path="/welcome" element={<DatingWelcome />} />
+      <Route path="/setup/*" element={<DatingSetup />} />
+    </Routes>
+```
+
+
 ## react-router-dom v6
 
 <Route /> Component has no `component` and `render` as we had in `react-router-dom@5` as you can see the type Route object type here: [Click here](https://reactrouter.com/en/main/route/route#type-declaration).
