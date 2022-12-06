@@ -5,3 +5,4 @@
 3. 30 Days of React - [Click here](https://github.com/Asabeneh/30-Days-Of-React)
 4. MASTER REACT JS IN ONE VIDEO WITH 5 PROJECTS **~6 Pack Programmer**: [Click here](https://www.youtube.com/watch?v=b50zSyLiCYQ)
 5. Official Courses Recommendations by react, both free and paid courses: [Click here](https://reactjs.org/community/courses.html)
+6. Mastering React Hooks by Jack Herrington: [Click here](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
