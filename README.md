@@ -16,6 +16,10 @@ Its running the render() function on each render to change the values in virtual
 
 ![image](https://user-images.githubusercontent.com/31458531/206142881-7da36e58-5587-4230-8ca9-4473deea2eec.png)
 
+**Also changes are written to real dom when there is delta b/w virtual and real dom like that:**
+
+![image](https://user-images.githubusercontent.com/31458531/206143651-a24271ad-18a7-43b8-8cd7-392295774863.png)
+
 
 ## Memoization
 
