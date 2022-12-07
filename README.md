@@ -10,7 +10,7 @@
 
 ## What does render function call does actually in react?
 
-**Source: [Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)**
+**Source: [Mastering React Memo ~ Jack Herrington](https://www.youtube.com/watch?v=DEPwA3mv_R8)**
 
 Its running the render() function on each render to change the values in virtualDom and changes from virtualDom to realDom is only done intelligent way (reconciliation) only when necessary(not change values on every render).
 - Directly from react conciliation docs: [Click here](https://reactjs.org/docs/reconciliation.html)
@@ -35,7 +35,7 @@ Its running the render() function on each render to change the values in virtual
 
 ## Memoization
 
-Source: [Click here](https://www.youtube.com/watch?v=DEPwA3mv_R8)
+Source: [Mastering React Memo ~ Jack Herrington](https://www.youtube.com/watch?v=DEPwA3mv_R8)
 
 Learn:
 - Memoization in react is about prevProps and currentProps comparing when the parent component is re-rendered, whereas the general definition of memoize (from wikipedia) it functions like below i.e, it stores key->value pairs according to the params passed to the memoed version of the function.
@@ -46,7 +46,7 @@ Learn:
 
 ## Async code-splitting with react - Jack Herrington
 
-**Source: [Click here](https://www.youtube.com/watch?v=7kNLXE0hixM)**
+**Source: [Code Splitting Made Simple ~ Jack Herrington](https://www.youtube.com/watch?v=7kNLXE0hixM)**
 
 - Load data, functions (both as default named exports)
 - Learned how to name your chunks (this helps in caching so that when app wants to load the component again the browser just loads it from cache and not fetch from server again)
