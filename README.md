@@ -11,6 +11,8 @@
 ## What does render function call does actually in react?
 
 Its running the render() function on each render to change the values in virtualDom and changes from virtualDom to realDom is only done intelligent way (reconciliation) only when necessary(not change values on every render).
+- Directly from react conciliation docs: [Click here](https://reactjs.org/docs/reconciliation.html)
+	> React then needs to figure out how to efficiently update the UI to match the most recent tree.
 
 ![image](https://user-images.githubusercontent.com/31458531/206142881-7da36e58-5587-4230-8ca9-4473deea2eec.png)
 
