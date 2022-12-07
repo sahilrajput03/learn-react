@@ -10,6 +10,8 @@
 
 ## What does render function call does actually in react?
 
+**Source: [Click here](https://www.youtube.com/watch?v=DEPwA3mv_R8)**
+
 Its running the render() function on each render to change the values in virtualDom and changes from virtualDom to realDom is only done intelligent way (reconciliation) only when necessary(not change values on every render).
 - Directly from react conciliation docs: [Click here](https://reactjs.org/docs/reconciliation.html)
 	> React then needs to figure out how to efficiently update the UI to match the most recent tree.
@@ -18,7 +20,6 @@ Its running the render() function on each render to change the values in virtual
 
 **Also changes are written to real dom when there is delta b/w virtual and real dom like that:**
 
-**Source: [Click here](https://www.youtube.com/watch?v=DEPwA3mv_R8)**
 
 ![image](https://user-images.githubusercontent.com/31458531/206143651-a24271ad-18a7-43b8-8cd7-392295774863.png)
 
