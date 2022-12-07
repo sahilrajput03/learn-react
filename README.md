@@ -10,7 +10,7 @@
 
 ## What does render function call does actually in react?
 
-**Source: [Click here](https://www.youtube.com/watch?v=DEPwA3mv_R8)**
+**Source: [Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)**
 
 Its running the render() function on each render to change the values in virtualDom and changes from virtualDom to realDom is only done intelligent way (reconciliation) only when necessary(not change values on every render).
 - Directly from react conciliation docs: [Click here](https://reactjs.org/docs/reconciliation.html)
