@@ -8,6 +8,10 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Mastering React Batch Updating
+
+Source: **[Mastering React Batch Updating ~ Jack herrington](https://www.youtube.com/watch?v=MlDTHzK1vKI)**
+
 ## What does render function call does actually in react?
 
 **Source: [Mastering React Memo ~ Jack Herrington](https://www.youtube.com/watch?v=DEPwA3mv_R8)**
