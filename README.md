@@ -8,6 +8,16 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Async code-splitting with react - Jack Herington
+
+**Source: [Click here](https://www.youtube.com/watch?v=7kNLXE0hixM)**
+
+- Load data, functions (both as default named exports)
+- Learned how to name your chunks (this helps in caching so that when app wants to load the component again the browser just loads it from cache and not fetch from server again)
+- All above with three different ways: 1. manually, 2. Suspense+React.lazy() {this is not workable with react server side}, 3. Loadable components (works good with server side as well)
+- Learned to load compoents asynchronously from default and named exports
+- Learned module federation functionality to share code between applications
+
 ## Myth breaking ~Sahil
 
 Changing the `count` state does **not** unmount the `About` component. *Tested by using the useEffect's return function.*
