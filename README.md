@@ -18,7 +18,18 @@ Its running the render() function on each render to change the values in virtual
 
 **Also changes are written to real dom when there is delta b/w virtual and real dom like that:**
 
+**Source: [Click here](https://www.youtube.com/watch?v=DEPwA3mv_R8)**
+
 ![image](https://user-images.githubusercontent.com/31458531/206143651-a24271ad-18a7-43b8-8cd7-392295774863.png)
+
+~Jack Herrington: If you are jumping to React.memo() becoz you put a console.log in your component and you see like wooooahhh this is getting called all the time, DON'T worry about it becoz at the end of the day if it doesn't make a dom change then then the price isn't all that high of calling that function over and over again.
+
+**5 things wrapped up:**
+- React memo is not memoization in traditional sense
+- Train your mind that memo as "render if props have chagned".
+- useCallback and useMemo are for referential integrity and inparticular: referential integrity of array, objects, and functions.
+- Use useMemo when you're the calcuation you're doing is compuatationally expensive.
+- Re-rendering in react is not a terrible thing, react was build to manage that. As reconciliation is magic that checks for the diff of vdom and dom and make changes to dom as required.
 
 
 ## Memoization
