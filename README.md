@@ -14,6 +14,7 @@ Source: [Click here](https://www.youtube.com/watch?v=DEPwA3mv_R8)
 
 Learn:
 - Memoization in react is about prevProps and currentProps comparing when the parent component is re-rendered, whereas the general definition of memoize (from wikipedia) it functions like below i.e, it stores key->value pairs according to the params passed to the memoed version of the function.
+- So summing up: React.memo is not actually memoization but actualy React.render() if the props have changed.
 
 ![image](https://user-images.githubusercontent.com/31458531/206140714-b36232c3-6b08-41cc-b4c4-03d37701ca7a.png)
 
