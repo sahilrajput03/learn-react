@@ -8,6 +8,11 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## multiple search params?
+
+![image](https://user-images.githubusercontent.com/31458531/206477603-c4c22991-82d0-4bdd-b484-5126cd2d7a6f.png)
+
+
 ## `react-router-dom@6` useSearchParams
 
 Video: [Click here](https://www.youtube.com/watch?v=NIeViuGJpMQ), Docs: [Click here](https://reactrouter.com/en/main/hooks/use-search-params)
