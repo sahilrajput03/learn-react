@@ -15,7 +15,7 @@
 
 ```js
 let newSearcParams = {}
-for (const [k,v] of searchParams) {
+for (const [k,v] of searchParams) { // here `searchParams` is the value we get from `useSearchParams` hook of react-router@v6
   newSearcParams[k] = v
   // here we put some condition and change any particular key/value pari as per our need
 }
