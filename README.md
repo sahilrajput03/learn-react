@@ -8,6 +8,21 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## set brand new search params
+
+- Source: @MDN # API/URLSearchParams [Click here](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+- Source: useSearchParams: [Click here](https://reactrouter.com/en/main/hooks/use-search-params)
+
+```js
+let newSearcParams
+for (const [k,v] of searchParams) {
+  newSearcParams[k] = v
+  // here we put some condition and change any particular key/value pari as per our need
+}
+setSearchParams(newSearcParams) // react-router@v6 hook to set new search params
+```
+
+
 ## multiple search params?
 
 ***All searchParams methods @ MDN: Beautiful: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)***
