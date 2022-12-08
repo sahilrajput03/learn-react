@@ -14,7 +14,7 @@
 - Source: useSearchParams: [Click here](https://reactrouter.com/en/main/hooks/use-search-params)
 
 ```js
-let newSearcParams
+let newSearcParams = {}
 for (const [k,v] of searchParams) {
   newSearcParams[k] = v
   // here we put some condition and change any particular key/value pari as per our need
