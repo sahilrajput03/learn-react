@@ -10,6 +10,8 @@
 
 ## multiple search params?
 
+***All searchParams methods @ MDN: Beautiful: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)***
+
 Docs@ MDN: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/getAll)
 
 ![image](https://user-images.githubusercontent.com/31458531/206477818-7b8ea454-9052-47b7-afa5-e99a22dffbbb.png)
