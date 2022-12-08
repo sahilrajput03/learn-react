@@ -8,6 +8,10 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## `react-router-dom@6` useSearchParams
+
+Video: [Click here](https://www.youtube.com/watch?v=NIeViuGJpMQ), Docs: [Click here](https://reactrouter.com/en/main/hooks/use-search-params)
+
 ## Mastering React Batch Updating
 
 Source: **[Mastering React Batch Updating ~ Jack herrington](https://www.youtube.com/watch?v=MlDTHzK1vKI)**
