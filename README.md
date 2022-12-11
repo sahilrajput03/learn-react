@@ -8,6 +8,10 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## microfrontends?
+
+By Jack Herrington: [Click here](https://www.youtube.com/watch?v=w58aZjACETQ)
+
 ## set brand new search params
 
 - Source: @MDN # API/URLSearchParams [Click here](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
