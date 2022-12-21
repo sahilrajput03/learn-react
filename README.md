@@ -8,6 +8,10 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## What does flushSync() do in React?
+
+Source: [Click here](https://stackoverflow.com/a/72694185)
+
 ## microfrontends?
 
 By Jack Herrington: [Click here](https://www.youtube.com/watch?v=w58aZjACETQ)
