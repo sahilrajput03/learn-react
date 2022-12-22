@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Router - Basic Example</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NWPS6ZB302"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date()); // necessary
+      gtag("config", "G-NWPS6ZB302"); // necessary (second parameter is tracking id)
+
+      // Docs: https://developers.google.com/analytics/devguides/collection/ga4/events?client_type=gtag
+      // Docs rocks!
+      gtag("event", "page_view", {
+        page_location: "yoyo21", // window.location to send the real page_location actually.
+      });
+
+      // Docs rocks!
+      gtag("event", "page_view", {
+        page_location: "yoyo21",
+        page_title: "koko",
+      });
+
+      // Docs rocks!
+      gtag("event", "page_view", {
+        page_location: "yoyo",
+        page_title: "koko",
+        app_name: "coolAppHann",
+        screen_name: "Home",
+      });
+
+      // Docs rocks!
+      gtag("event", "screen_view", {
+        app_name: "myAppName",
+        screen_name: "Home",
+      });
+
+      // Docs rocks!, Sending any desirable eventName and with desirable data shape is allowed.
+      gtag("event", "myCustomEvent", {
+        app_name: "myAppName",
+        screen_name: "Home",
+        animateName: "Pika",
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
