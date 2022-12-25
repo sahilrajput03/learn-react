@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+
+    <!-- YouTube IFrame Api Docs: https://developers.google.com/youtube/iframe_api_reference -->
+    <!-- YouTube Player Demo: https://developers.google.com/youtube/youtube_player_demo -->
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement("script");
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName("script")[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads. ALSO, this fn is executed automatically ~Sahil.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player("player", {
+          height: "390",
+          width: "640",
+          videoId: "M7lc1UVf-VE",
+          autoplay: true, // DOEN"T SEEM TO WORK ~Sahil
+          playerVars: {
+            playsinline: 1,
+            // mute: true, // you can check at run time via: `player.isMuted()` // Check all volute related api: https://developers.google.com/youtube/iframe_api_reference#changing-the-player-volume
+            autoplay: 1, // DOEN"T SEEM TO WORK ~Sahil
+            // controls: 0,// 0=hides the controls, 1=(default)shows the controls
+          },
+          events: {
+            onReady: onPlayerReady,
+            onStateChange: onPlayerStateChange,
+            // onError: onPlayerError,
+          },
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+        console.log("player state (:onPlayerReady):", event.target);
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        console.log("player state:", event.data);
+      }
+      // ~Sahil, This stops the video when called.
+      // function stopVideo() {
+      //   player.stopVideo();
+      // }
+
+      // Get current time of video ~Sahil
+      // player.getCurrentTime(), give current video time.
+
+      // Get total length of video ~Sahil
+      // var mins = Math.floor(player.getDuration() / 60)
+      // var secs = player.getDuration() % 60
+      // alert(mins + ':' + secs)
+    </script>
+  </body>
+</html>
