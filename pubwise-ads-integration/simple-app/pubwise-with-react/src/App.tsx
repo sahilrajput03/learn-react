@@ -1,6 +1,3 @@
-import { useEffect, useRef, useState } from "react";
-import useScript from "./hooks/useScript";
-import useLoadScriptsInOrder from "./hooks/useLoadScriptsInOrder";
 import usePubWiseAdSlots from "./hooks/usePubWiseAdSlots";
 import PubWiseAd from "./components/PubWiseAd";
 
