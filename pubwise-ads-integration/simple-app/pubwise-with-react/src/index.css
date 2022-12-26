@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+.loading{
+  background: yellow;
+}
