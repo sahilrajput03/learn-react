@@ -8,6 +8,11 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Defining css varibles in react
+
+- Source: [Click here](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
+- Source: [Click here](https://www.joshwcomeau.com/css/css-variables-for-react-devs/)
+
 ## Thats how we can use css varibles in react
 
 ![image](https://user-images.githubusercontent.com/31458531/209655258-f4a457a4-6575-4767-9c93-22f17052dc56.png)
