@@ -13,6 +13,10 @@
 - Source: [Click here](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
 - Source: [Click here](https://www.joshwcomeau.com/css/css-variables-for-react-devs/)
 
+## React 18: useEffect Double Call; Mistake or Awesome? ~Jack Herrington
+
+Source: [Click here](https://www.youtube.com/watch?v=j8s01ThR7bQ&t=123s)
+
 ## Thats how we can use css varibles in react
 
 (see above section as well: `Defining css varibles in react`)
