@@ -8,6 +8,10 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Thats how we can use css varibles in react
+
+![image](https://user-images.githubusercontent.com/31458531/209655258-f4a457a4-6575-4767-9c93-22f17052dc56.png)
+
 ## `window.matchMedia` to help you do media query checking in javascript
 
 *Inspired by Abhishek's Codebase*
