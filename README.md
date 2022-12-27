@@ -15,6 +15,8 @@
 
 ## Thats how we can use css varibles in react
 
+(see above section as well: `Defining css varibles in react`)
+
 ![image](https://user-images.githubusercontent.com/31458531/209655258-f4a457a4-6575-4767-9c93-22f17052dc56.png)
 
 ## `window.matchMedia` to help you do media query checking in javascript
