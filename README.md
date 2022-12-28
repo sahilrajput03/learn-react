@@ -65,6 +65,8 @@ export const useMatchMedia = (mediaQuery, initialValue) => {
 
 Source: [Click here](https://stackoverflow.com/a/72694185)
 
+FYI: I also answered this answer [here](https://stackoverflow.com/questions/62725935/what-does-flushsync-do-in-react/74945559#74945559) in same above question.
+
 ## microfrontends?
 
 By Jack Herrington: [Click here](https://www.youtube.com/watch?v=w58aZjACETQ)
