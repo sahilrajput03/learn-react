@@ -9,9 +9,9 @@ declare global {
 }
 
 // FOR CRA
-// const analyticsId = process?.env.REACT_APP_GOOGLE_ANALYTICS || ''; // Temporary. (Slasher's Test: `G-NWPS6ZB302`)
+// const analyticsId = process?.env.REACT_APP_GOOGLE_ANALYTICS || '';
 
-const analyticsId = ""; // For e.g., (Slasher's Test: `G-NWPS6ZB***`)
+const analyticsId = ""; // For e.g., (Example: `G-ABCDEFGHI`)
 if (!analyticsId) throw new Error("Please provide analyticsId becoz its undefined currently.");
 
 export default function App() {
