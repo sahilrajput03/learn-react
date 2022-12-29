@@ -1,0 +1,28 @@
+<!-- STEP 1: Add PubWise Script -->
+<!-- From `Customer Success Manager` -->
+
+<!-- STEP 2: Modify Google Ad Manager Tag Code -->
+<!-- `gptadslots` variable contains GAM adunits (indexed by the DIV IV).  -->
+<!-- <script>
+  var gptadslots = [];
+  googletag.cmd.push(function () {
+    gptadslots["div-1"] = googletag.defineSlot("/dfpAdUnit", "div-1").addService(googletag.pubads());
+    gptadslots["div-2"] = googletag.defineSlot("/dfpAdUnit2", "div-2").addService(googletag.pubads());
+    // other GAM code
+  });
+</script> -->
+
+<!-- STEP 3: PubWise Tag Code -->
+<!-- <div id="div-1" style="min-height: 90px">
+  <script type="text/javascript">
+    pubwise.que.push(function () {
+      pubwise.renderAd("div-1");
+    });
+  </script>
+</div> -->
+
+<!-- STEP 4: PubWise Configures Prebid Bidding -->
+<!-- Your Customer Success Manager will configure all entries in the `gptadslots` variable for Prebid bidding. -->
+
+
+<!-- GPT: Reference: https://developers.google.com/publisher-tag/reference#googletag.PubAdsService_disableInitialLoad -->
