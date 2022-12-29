@@ -8,6 +8,21 @@
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Defining css varibles in react
+
+- Source: [Click here](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
+- Source: [Click here](https://www.joshwcomeau.com/css/css-variables-for-react-devs/)
+
+## React 18: useEffect Double Call; Mistake or Awesome? ~Jack Herrington
+
+Source: [Click here](https://www.youtube.com/watch?v=j8s01ThR7bQ&t=123s)
+
+## Thats how we can use css varibles in react
+
+(see above section as well: `Defining css varibles in react`)
+
+![image](https://user-images.githubusercontent.com/31458531/209655258-f4a457a4-6575-4767-9c93-22f17052dc56.png)
+
 ## `window.matchMedia` to help you do media query checking in javascript
 
 *Inspired by Abhishek's Codebase*
@@ -49,6 +64,8 @@ export const useMatchMedia = (mediaQuery, initialValue) => {
 ## What does flushSync() do in React?
 
 Source: [Click here](https://stackoverflow.com/a/72694185)
+
+FYI: I also answered this answer [here](https://stackoverflow.com/questions/62725935/what-does-flushsync-do-in-react/74945559#74945559) in same above question.
 
 ## microfrontends?
 
