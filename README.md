@@ -13,6 +13,13 @@
 - Source: [Click here](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
 - Source: [Click here](https://www.joshwcomeau.com/css/css-variables-for-react-devs/)
 
+- Absolute vanilla way to get css variable in javascript
+
+	```js
+	const successColorBootstrap = getComputedStyle(document.body).getPropertyValue('--bs-success');
+	console.log(successColorBootstrap) // #00ff0a
+	```
+
 ## React 18: useEffect Double Call; Mistake or Awesome? ~Jack Herrington
 
 Source: [Click here](https://www.youtube.com/watch?v=j8s01ThR7bQ&t=123s)
@@ -22,13 +29,6 @@ Source: [Click here](https://www.youtube.com/watch?v=j8s01ThR7bQ&t=123s)
 (see above section as well: `Defining css varibles in react`)
 
 ![image](https://user-images.githubusercontent.com/31458531/209655258-f4a457a4-6575-4767-9c93-22f17052dc56.png)
-
-## Absolute vanilla way to get css variable in javascript
-
-```js
-const successColorBootstrap = getComputedStyle(document.body).getPropertyValue('--bs-success');
-console.log(successColorBootstrap) // #00ff0a
-```
 
 ## `window.matchMedia` to help you do media query checking in javascript
 
