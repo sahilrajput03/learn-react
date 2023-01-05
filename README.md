@@ -23,6 +23,14 @@ Source: [Click here](https://www.youtube.com/watch?v=j8s01ThR7bQ&t=123s)
 
 ![image](https://user-images.githubusercontent.com/31458531/209655258-f4a457a4-6575-4767-9c93-22f17052dc56.png)
 
+## Absolute vanilla way to get css variable in javascript
+
+![image](https://user-images.githubusercontent.com/31458531/210878545-6576e060-49e6-4913-94e9-a3717d96b4c5.png)
+
+```js
+const successColorBootstrap = getComputedStyle(document.body).getPropertyValue('--bs-success');
+```
+
 ## `window.matchMedia` to help you do media query checking in javascript
 
 *Inspired by Abhishek's Codebase*
