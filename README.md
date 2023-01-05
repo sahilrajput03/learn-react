@@ -25,10 +25,9 @@ Source: [Click here](https://www.youtube.com/watch?v=j8s01ThR7bQ&t=123s)
 
 ## Absolute vanilla way to get css variable in javascript
 
-![image](https://user-images.githubusercontent.com/31458531/210878545-6576e060-49e6-4913-94e9-a3717d96b4c5.png)
-
 ```js
 const successColorBootstrap = getComputedStyle(document.body).getPropertyValue('--bs-success');
+console.log(successColorBootstrap) // #00ff0a
 ```
 
 ## `window.matchMedia` to help you do media query checking in javascript
