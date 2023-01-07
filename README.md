@@ -4,6 +4,11 @@
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
 
+**Quick Links My Resources:**
+- cssDesignTrail: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
+- Learn Bootstrap: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-bootstrap.md)_
+- Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)
+
 **TODO:**
 - **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
