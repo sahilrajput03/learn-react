@@ -17,7 +17,6 @@
 
 - Source: [Click here](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
 - Source: [Click here](https://www.joshwcomeau.com/css/css-variables-for-react-devs/)
-
 - Absolute vanilla way to get css variable in javascript
 
 	```js
