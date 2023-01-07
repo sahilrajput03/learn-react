@@ -10,7 +10,7 @@
 - Learn Styled Components: [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/learn-styled-components.md)
 
 **TODO:**
-- **Make a codesandbox example for making use of nested route system (refer slasher project for it)*
+- Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
 ## Defining css varibles in react
