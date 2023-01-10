@@ -13,6 +13,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Defining a sub-render function in render vs. a React component
+
+Stackoverflow Question: [Click here](https://stackoverflow.com/questions/61280400/defining-a-sub-render-function-in-render-vs-a-react-component)
+
 ## Defining css varibles in react
 
 - Source: [Click here](https://stackoverflow.com/questions/52005083/how-to-define-css-variables-in-style-attribute-in-react-and-typescript)
