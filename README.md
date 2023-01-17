@@ -13,6 +13,9 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## `react-router-dom` docs links
+- Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/en/main/upgrading/v5)
+
 ## Defining a sub-render function in render vs. a React component
 
 Stackoverflow Question: [Click here](https://stackoverflow.com/questions/61280400/defining-a-sub-render-function-in-render-vs-a-react-component)
@@ -602,9 +605,6 @@ We need to have a chrome running with debugging on i.e, we can do it via: (*use 
 ![image](https://user-images.githubusercontent.com/31458531/183285649-29eea803-7c07-4ae7-8aa4-0f476c6326de.png)
 
 ![image](https://user-images.githubusercontent.com/31458531/183285668-03ef7717-92f3-474f-99b3-1f2a6c172c64.png)
-
-## Important links
-- Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/docs/en/v6/upgrading/v5#use-usenavigate-instead-of-usehistory)
 
 ## For reference to fullstack solutions: Please refer @ https://github.com/sahilrajput03/fullstackopen
 
