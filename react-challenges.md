@@ -7,3 +7,4 @@
 5. Official Courses Recommendations by react, both free and paid courses: [Click here](https://reactjs.org/community/courses.html)
 6. Mastering React Hooks by Jack Herrington: [Click here](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
 7. **{TODO: URGENT} Become a Pro React Developer ~ Jack Herrington: [Click here](https://www.youtube.com/playlist?list=PLNqp92_EXZBJs6rKouX5U8-tWJgTLaeKv)**
+8. Playlist - React Hooks Tutorial ~ Ben Awad: [Click here](https://www.youtube.com/playlist?list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM)
