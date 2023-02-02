@@ -16,6 +16,12 @@
 ## `react-router-dom` docs links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/en/main/upgrading/v5)
 
+## Remove all proerties of a button
+
+Source: [Click here](https://stackoverflow.com/a/54101412/10012446)
+
+![image](https://user-images.githubusercontent.com/31458531/216450979-4209dc96-e605-4d73-8b74-510545177353.png)
+
 ## `copy-to-cliboard` library
 
 - Github: [Click here](https://github.com/sudodoki/copy-to-clipboard)
