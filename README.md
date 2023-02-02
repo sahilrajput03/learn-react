@@ -16,6 +16,12 @@
 ## `react-router-dom` docs links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/en/main/upgrading/v5)
 
+## `copy-to-cliboard` library
+
+- Github: [Click here](https://github.com/sudodoki/copy-to-clipboard)
+- npm: [Click here](https://www.npmjs.com/package/copy-to-clipboard)
+
+
 ## Defining a sub-render function in render vs. a React component
 
 Stackoverflow Question: [Click here](https://stackoverflow.com/questions/61280400/defining-a-sub-render-function-in-render-vs-a-react-component)
