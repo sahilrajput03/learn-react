@@ -16,6 +16,68 @@
 ## `react-router-dom` docs links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/en/main/upgrading/v5)
 
+## Returning `component` from your custom hook
+
+```tsx
+  // usage of below component
+  const [ProgressButton1, setProgressStatusBtn1] = useCustomProgressButtonStatus();
+  const updateYourPost = async (e: React.MouseEvent<HTMLButtonElement>) => {
+    setProgressStatusBtn1('loading');
+  }
+  
+  // in jsx
+  return <ProgressButton1 label="Update your post" className="text-primary" onClick={updatePostHandler} />
+```
+
+```tsx
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { ReactElement, useEffect, useState } from 'react';
+import { Spinner } from 'react-bootstrap';
+import RoundButton from './RoundButton';
+
+export type ProgressButtonState = 'default' | 'loading' | 'success' | 'failure';
+
+type ButtonComponentType = ({ label, className, onClick }: Props) => ReactElement<any>;
+
+type Props = {
+  label: string, className: string,
+  onClick: Function,
+};
+
+type SetProgressType = (status: ProgressButtonState) => void;
+
+const useCustomProgressButtonStatus = (): [ButtonComponentType, SetProgressType] => {
+  const [progress, setProgress] = useState<ProgressButtonState>('default');
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setProgress('default');
+    }, 3_000);
+    return () => clearTimeout(timer);
+  }, [progress, setProgress]);
+
+  const Button = React.useMemo(() => {
+    function CustomProgessButton({
+      label, className = '', onClick = () => {},
+    }: Props) {
+      return (
+        <RoundButton type="submit" className={className} onClick={onClick}>
+          { progress === 'default' && label}
+          { progress === 'loading' && <Spinner size="sm" animation="border" role="status" />}
+          { progress === 'success' && <FontAwesomeIcon icon={solid('check')} size="1x" style={{ paddingTop: 3 }} />}
+          { progress === 'failure' && <FontAwesomeIcon icon={solid('x')} size="1x" style={{ paddingTop: 3 }} />}
+        </RoundButton>
+      );
+    }
+    return CustomProgessButton;
+  }, [progress]);
+  return [Button, setProgress];
+};
+
+export default useCustomProgressButtonStatus;
+```
+
 ## Remove all proerties of a button
 
 Source: [Click here](https://stackoverflow.com/a/54101412/10012446)
