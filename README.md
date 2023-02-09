@@ -46,7 +46,7 @@ import RoundButton from './RoundButton';
 
 export type ProgressButtonStatus = 'default' | 'loading' | 'success' | 'failure';
 
-type ButtonComponentType = ({ label, className, onClick }: Props) => ReactElement<any>;
+type ProgressButtonComponentType = ({ label, className, onClick }: Props) => ReactElement<any>;
 
 type Props = {
   label: string, className: string,
@@ -55,7 +55,7 @@ type Props = {
 
 type SetProgressFunction = (status: ProgressButtonStatus) => void;
 
-const useProgressButton = (): [ButtonComponentType, SetProgressFunction] => {
+const useProgressButton = (): [ProgressButtonComponentType, SetProgressFunction] => {
   const [progress, setProgress] = useState<ProgressButtonStatus>('default');
 
   useEffect(() => {
