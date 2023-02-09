@@ -18,6 +18,10 @@
 
 ## Returning `component` from your custom hook
 
+Inspiration:
+
+- **React Design Patterns: Return Component From Hooks:** [Click here](https://blog.bitsrc.io/new-react-design-pattern-return-component-from-hooks-79215c3eac00)
+
 ```tsx
   // usage of `useCustomProgressButtonStatus` hook
   const [ProgressButton1, setProgressStatusBtn1] = useCustomProgressButtonStatus();
