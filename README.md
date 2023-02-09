@@ -19,7 +19,7 @@
 ## Returning `component` from your custom hook
 
 ```tsx
-  // usage of below component
+  // usage of `useCustomProgressButtonStatus` hook
   const [ProgressButton1, setProgressStatusBtn1] = useCustomProgressButtonStatus();
   const updateYourPost = async (e: React.MouseEvent<HTMLButtonElement>) => {
     setProgressStatusBtn1('loading');
