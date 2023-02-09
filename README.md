@@ -44,7 +44,7 @@ import React, { ReactElement, useEffect, useState } from 'react';
 import { Spinner } from 'react-bootstrap';
 import RoundButton from './RoundButton';
 
-export type ProgressButtonState = 'default' | 'loading' | 'success' | 'failure';
+export type ProgressButtonStatus = 'default' | 'loading' | 'success' | 'failure';
 
 type ButtonComponentType = ({ label, className, onClick }: Props) => ReactElement<any>;
 
@@ -53,10 +53,10 @@ type Props = {
   onClick: Function,
 };
 
-type SetProgressType = (status: ProgressButtonState) => void;
+type SetProgressType = (status: ProgressButtonStatus) => void;
 
 const useProgressButton = (): [ButtonComponentType, SetProgressType] => {
-  const [progress, setProgress] = useState<ProgressButtonState>('default');
+  const [progress, setProgress] = useState<ProgressButtonStatus>('default');
 
   useEffect(() => {
     const timer = setTimeout(() => {
