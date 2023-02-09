@@ -53,9 +53,9 @@ type Props = {
   onClick: Function,
 };
 
-type SetProgressType = (status: ProgressButtonStatus) => void;
+type SetProgressFunction = (status: ProgressButtonStatus) => void;
 
-const useProgressButton = (): [ButtonComponentType, SetProgressType] => {
+const useProgressButton = (): [ButtonComponentType, SetProgressFunction] => {
   const [progress, setProgress] = useState<ProgressButtonStatus>('default');
 
   useEffect(() => {
