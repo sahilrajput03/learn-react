@@ -24,16 +24,18 @@ Inspiration:
 
 ```tsx
   // usage of `useCustomProgressButtonStatus` hook
-  const [ProgressButton1, setProgressStatusBtn1] = useCustomProgressButtonStatus();
+  const [ProgressButton1, setProgressButtonStatus1] = useProgressButton();
   const updateYourPost = async (e: React.MouseEvent<HTMLButtonElement>) => {
-    setProgressStatusBtn1('loading');
+    // setProgressButtonStatus('loading');
+    // setProgressButtonStatus('success');
+    // setProgressButtonStatus('failure');
   }
   
   // in jsx
   return <ProgressButton1 label="Update your post" className="text-primary" onClick={updatePostHandler} />
 ```
 
-File: `useCustomProgressButtonStatus` (react custom hook):
+File: `useProgressButton` (react custom hook):
 
 ```tsx
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
@@ -53,7 +55,7 @@ type Props = {
 
 type SetProgressType = (status: ProgressButtonState) => void;
 
-const useCustomProgressButtonStatus = (): [ButtonComponentType, SetProgressType] => {
+const useProgressButton = (): [ButtonComponentType, SetProgressType] => {
   const [progress, setProgress] = useState<ProgressButtonState>('default');
 
   useEffect(() => {
@@ -63,7 +65,7 @@ const useCustomProgressButtonStatus = (): [ButtonComponentType, SetProgressType]
     return () => clearTimeout(timer);
   }, [progress, setProgress]);
 
-  const Button = React.useMemo(() => {
+  const ProgessButtonComponent = React.useMemo(() => {
     function CustomProgessButton({
       label, className = '', onClick = () => {},
     }: Props) {
@@ -78,10 +80,10 @@ const useCustomProgressButtonStatus = (): [ButtonComponentType, SetProgressType]
     }
     return CustomProgessButton;
   }, [progress]);
-  return [Button, setProgress];
+  return [ProgessButtonComponent, setProgress];
 };
 
-export default useCustomProgressButtonStatus;
+export default useProgressButton;
 ```
 
 ## Remove all proerties of a button
