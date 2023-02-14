@@ -18,6 +18,8 @@
 
 ## Using dangerous set html in react
 
+Example CodeSandbox: [Click here](https://codesandbox.io/s/using-dangerouslysetinnerhtml-5jhbkk)
+
 ```jsx
 export default function App() {
   return (
