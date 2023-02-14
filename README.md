@@ -16,6 +16,22 @@
 ## `react-router-dom` docs links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/en/main/upgrading/v5)
 
+## Using dangerous set html in react
+
+```jsx
+export default function App() {
+  return (
+    <div className="App">
+      <h1>Hello CodeSandbox</h1>
+      <div dangerouslySetInnerHTML={{
+        __html: "<b>hello</b>"
+      }}/>
+    </div>
+  );
+}
+
+```
+
 ## Returning `component` from your custom hook
 
 Inspiration:
