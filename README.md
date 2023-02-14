@@ -13,6 +13,14 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Error `Type 'MutableRefObject<HTMLInputElement | undefined>' is not assignable to type 'LegacyRef<HTMLInputElement> | undefined'`
+
+Source: [Click here](https://stackoverflow.com/a/74297048/10012446)
+
+```ts
+const ref = React.useRef<HTMLInputElement>(null)
+```
+
 ## `react-router-dom` docs links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/en/main/upgrading/v5)
 
