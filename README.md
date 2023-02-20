@@ -15,6 +15,8 @@
 
 ## `defaultProps` in react components
 
+Source: [Click here](https://codesandbox.io/s/ecstatic-surf-u2hojk?file=/src/App.js)
+
 ```tsx
 export default function App() {
   return (
