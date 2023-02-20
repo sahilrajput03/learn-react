@@ -13,6 +13,32 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## `defaultProps` in react components
+
+```tsx
+export default function App() {
+  return (
+    <div className="App">
+      <Greeting />
+    </div>
+  );
+}
+
+// Learning: The default value given to b is not assigned becoz the whole object i.e, `defaultProps` is assigned to first argument of the component.
+const Greeting = ({ a, b = "bar" }) => {
+  return (
+    <h1>
+      hello,
+      {a} {b}
+    </h1>
+  );
+};
+Greeting.defaultProps = {
+  a: "firstName",
+  b: "lastName"
+};
+```
+
 ## Error `Type 'MutableRefObject<HTMLInputElement | undefined>' is not assignable to type 'LegacyRef<HTMLInputElement> | undefined'`
 
 Source: [Click here](https://stackoverflow.com/a/74297048/10012446)
