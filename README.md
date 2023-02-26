@@ -13,6 +13,16 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Thats how you can define type for `setState` function in typescript
+
+```ts
+import React from 'react';
+setValue : React.Dispatch<React.SetStateAction<string>>
+```
+
+![image](https://user-images.githubusercontent.com/31458531/221410489-4b20b1ca-0924-49fc-95de-bd2a89e15c22.png)
+
+
 ## ❤️ Its always good to view component's props data in react-dev-tools view
 
 You can search for a component name and see its values
