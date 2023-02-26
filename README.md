@@ -13,7 +13,9 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
-## Thats how you can define type for `setState` function in typescript
+## Define type for `setState` function in typescript
+
+Source: [Click here](https://stackoverflow.com/a/65824149/10012446)
 
 ```ts
 import React from 'react';
