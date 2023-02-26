@@ -13,7 +13,7 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
-## Its always good to view component's props data in react-dev-tools view
+## ❤️ Its always good to view component's props data in react-dev-tools view
 
 You can search for a component name and see its values
 
