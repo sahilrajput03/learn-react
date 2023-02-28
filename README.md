@@ -13,6 +13,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Seo in react
+
+Source: [Article - SEO in React — Two simple step implementation](https://medium.com/@franklynugege/seo-in-react-two-simple-step-implementation-7d9382381718)
+
 ## Define type for `setState` function in typescript
 
 Source: [Click here](https://stackoverflow.com/a/65824149/10012446)
