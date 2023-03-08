@@ -13,6 +13,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## You can use this amazing feature of react-dev-tools to log the props of a component in an awesome way
+
+![image](https://user-images.githubusercontent.com/31458531/223815989-82a6e43c-ebbd-4870-bcab-67d32bdf8c6d.png)
+
 ## Seo in react
 
 Source: [Article - SEO in React — Two simple step implementation](https://medium.com/@franklynugege/seo-in-react-two-simple-step-implementation-7d9382381718)
