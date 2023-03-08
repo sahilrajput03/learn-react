@@ -13,6 +13,15 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Generate this beautiful dependencies graph
+
+Npm: `source-map-explorer`
+
+Source: [Click here](https://www.npmjs.com/package/source-map-explorer)
+
+![image](https://user-images.githubusercontent.com/31458531/223871677-549330bb-9a1e-45d0-8b7d-55efa1fc1f64.png)
+
+
 ## You can use this amazing feature of react-dev-tools to log the props of a component in an awesome way
 
 ![image](https://user-images.githubusercontent.com/31458531/223815989-82a6e43c-ebbd-4870-bcab-67d32bdf8c6d.png)
