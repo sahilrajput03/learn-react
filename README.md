@@ -13,6 +13,30 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Dynamically adding `meta` and `canonical <link>` tags in `create-react-app` project for SEO purpose
+
+Source:
+
+- Article - Canonical URLs: A Beginner’s Guide to Canonical Tags: [Click here](https://www.semrush.com/blog/canonical-url-guide/)
+- Related stackoverflow question: [Click here](https://stackoverflow.com/questions/22588705/when-does-googlebot-execute-javascript)
+- Article (from above 2nd answer of above stackoverflow question) - [Tested How Googlebot Crawls Javascript](https://searchengineland.com/tested-googlebot-crawls-javascript-heres-learned-220157)
+- `react-helmet`: [Click here](https://www.npmjs.com/package/react-helmet)
+- Sample SEO react PROJECT with `react-helmet` and `react-snap`: [Click here](https://github.com/frankly034/react-seo-demo)
+- `react-snap` (Github: 5K Stars): [Click here](https://github.com/stereobooster/react-snap). React Snap buils static pages for different routes after `npm run build` command is finished when we have this `"postbuild": "react-snap"` script in our package.json project file.
+- **Google Docs: Build and submit a sitemap:** [Click here](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
+
+NOTE: `react-snap` produces staic pages, and it doe
+
+NOTE: Google Crawler runs javascript just like regular browsers do!. Quote from [Article @ developers.google.com - Updating our technical Webmaster Guidelines](https://developers.google.com/search/blog/2014/10/updating-our-technical-webmaster):
+
+> We recently announced that our indexing system has been rendering web pages more like a typical modern browser, with CSS and JavaScript turned on. 
+
+![image](https://user-images.githubusercontent.com/31458531/224187521-750733a1-8c97-47a2-a5bb-bc43c97c3a32.png)
+
+Google Crawls Pages mentioned in the sitemap submitted. Source: Google Docs (source of below image - article by google "Build and submit a sitemap" (for link refer above references).
+
+![image](https://user-images.githubusercontent.com/31458531/224189694-9c9c0ac9-a078-455c-a8c0-0bd5ddebc3a3.png)
+
 ## Generate this beautiful dependencies graph
 
 Npm: `source-map-explorer`
