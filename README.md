@@ -18,7 +18,7 @@
 Query: how would google know that a certain page with url like below exists?
 http://slasher.tv/app/news/partner/6036639a657a566248b973f7
 
-- Possible way out: We should be having a static page build having multiple html files generated which then will be easily crawled by search engines.
+- Possible way: We can generate a static build with multiple html files generated for each route which then be easily crawled by search engines.
 
 Also, Google won't know that the "/app/news/partner/6036639a657a566248b973f7" url exists.  Google can't find it because the site requires login. Adding react-helmet is to prepare for the future, when the pages are publicly visible. We just didn't want to forget to add it before the site goes public, so we wanted to get it implemented early
 
@@ -28,9 +28,9 @@ Source:
 - Article - Canonical URLs: A Beginner’s Guide to Canonical Tags: [Click here](https://www.semrush.com/blog/canonical-url-guide/)
 - Related stackoverflow question: [Click here](https://stackoverflow.com/questions/22588705/when-does-googlebot-execute-javascript)
 - Article (from above 2nd answer of above stackoverflow question) - [Tested How Googlebot Crawls Javascript](https://searchengineland.com/tested-googlebot-crawls-javascript-heres-learned-220157)
-- `react-helmet`: [Click here](https://www.npmjs.com/package/react-helmet)
+- [`react-helmet`](https://www.npmjs.com/package/react-helmet). [`react-snap`](https://github.com/stereobooster/react-snap)
 - Sample SEO react PROJECT with `react-helmet` and `react-snap`: [Click here](https://github.com/frankly034/react-seo-demo)
-- `react-snap` (Github: 5K Stars): [Click here](https://github.com/stereobooster/react-snap). React Snap buils static pages for different routes after `npm run build` command is finished when we have this `"postbuild": "react-snap"` script in our package.json project file.
+- React Snap buils static pages for different routes after `npm run build` command is finished when we have this `"postbuild": "react-snap"` script in our package.json project file.
 - Article1 on developers.google.com - Updating our technical Webmaster Guidelines: [Click here](https://developers.google.com/search/blog/2014/10/updating-our-technical-webmaster)
 - Article2 on developers.google.com - Build and submit a sitemap: [Click here](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
 - Article3 on developers.google.com - Google Search Essential: [Click here](https://developers.google.com/search/docs/essentials)
