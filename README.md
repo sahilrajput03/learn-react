@@ -15,6 +15,8 @@
 
 ## Dynamically adding `meta` and `canonical <link>` tags in `create-react-app` project for SEO purpose
 
+![image](https://user-images.githubusercontent.com/31458531/224196376-23b8a0ad-9ff8-4dbb-a753-24094f4fcfc4.png)
+
 Query: how would google know that a certain page with url like below exists?
 http://slasher.tv/app/news/partner/6036639a657a566248b973f7
 
