@@ -15,6 +15,14 @@
 
 ## Dynamically adding `meta` and `canonical <link>` tags in `create-react-app` project for SEO purpose
 
+Query: how would google know that a certain page with url like below exists?
+http://slasher.tv/app/news/partner/6036639a657a566248b973f7
+
+- Possible way out: We should be having a static page build having multiple html files generated which then will be easily crawled by search engines.
+
+Also, Google won't know that the "/app/news/partner/6036639a657a566248b973f7" url exists.  Google can't find it because the site requires login. Adding react-helmet is to prepare for the future, when the pages are publicly visible. We just didn't want to forget to add it before the site goes public, so we wanted to get it implemented early
+
+
 Source:
 
 - Article - Canonical URLs: A Beginner’s Guide to Canonical Tags: [Click here](https://www.semrush.com/blog/canonical-url-guide/)
@@ -33,6 +41,10 @@ Source:
 	![image](https://user-images.githubusercontent.com/31458531/224191170-8851cdd9-b26d-43b1-ac68-b7da4e3a86a3.png)
 - Google crawls pages mentioned in the sitemap submitted for the site. (Source of below image is Article2)
 	![image](https://user-images.githubusercontent.com/31458531/224189694-9c9c0ac9-a078-455c-a8c0-0bd5ddebc3a3.png)
+- Google Search Console: [Click here](https://search.google.com/search-console)
+- We might be able to check/test the crawled data for pages by "Google Search Console" (same linke as above).
+	![image](https://user-images.githubusercontent.com/31458531/224193450-1e6869d9-104c-4aff-b75d-6f7511aa032d.png)
+
 
 ## Generate this beautiful dependencies graph
 
