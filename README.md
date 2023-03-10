@@ -23,17 +23,24 @@ Source:
 - `react-helmet`: [Click here](https://www.npmjs.com/package/react-helmet)
 - Sample SEO react PROJECT with `react-helmet` and `react-snap`: [Click here](https://github.com/frankly034/react-seo-demo)
 - `react-snap` (Github: 5K Stars): [Click here](https://github.com/stereobooster/react-snap). React Snap buils static pages for different routes after `npm run build` command is finished when we have this `"postbuild": "react-snap"` script in our package.json project file.
-- **Google Docs: Build and submit a sitemap:** [Click here](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
+- Article1 on developers.google.com - Updating our technical Webmaster Guidelines: [Click here](https://developers.google.com/search/blog/2014/10/updating-our-technical-webmaster)
+- Article2 on developers.google.com: Build and submit a sitemap: [Click here](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
+- Article3 on developers.google.com: Google Search Essential: [Click here](https://developers.google.com/search/docs/essentials)
+- Article4 on developers.google.com: Link best practices for Google: [Click here](https://developers.google.com/search/docs/crawling-indexing/links-crawlable)
 
-NOTE: `react-snap` produces staic pages, and it doe
+NOTE: Make your links crawlable so that Google can find other pages on your site via the links on your page. Refer linked article4.
 
-NOTE: Google Crawler runs javascript just like regular browsers do!. Quote from [Article @ developers.google.com - Updating our technical Webmaster Guidelines](https://developers.google.com/search/blog/2014/10/updating-our-technical-webmaster):
+NOTE: `react-snap` produces static site pages for each route.
 
-> We recently announced that our indexing system has been rendering web pages more like a typical modern browser, with CSS and JavaScript turned on. 
+NOTE: Google Crawler runs javascript just like regular browsers do!. Quote from:
 
-![image](https://user-images.githubusercontent.com/31458531/224187521-750733a1-8c97-47a2-a5bb-bc43c97c3a32.png)
+Source of image: Article1
 
-Google Crawls Pages mentioned in the sitemap submitted. Source: Google Docs (source of below image - article by google "Build and submit a sitemap" (for link refer above references).
+![image](https://user-images.githubusercontent.com/31458531/224191170-8851cdd9-b26d-43b1-ac68-b7da4e3a86a3.png)
+
+- Google Crawls Pages mentioned in the sitemap submitted for the site.
+
+Source of image: Article2
 
 ![image](https://user-images.githubusercontent.com/31458531/224189694-9c9c0ac9-a078-455c-a8c0-0bd5ddebc3a3.png)
 
