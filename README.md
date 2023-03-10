@@ -22,6 +22,7 @@ http://slasher.tv/app/news/partner/6036639a657a566248b973f7
 
 Also, Google won't know that the "/app/news/partner/6036639a657a566248b973f7" url exists.  Google can't find it because the site requires login. Adding react-helmet is to prepare for the future, when the pages are publicly visible. We just didn't want to forget to add it before the site goes public, so we wanted to get it implemented early
 
+![image](https://user-images.githubusercontent.com/31458531/224196068-b57e9618-080d-4b28-b304-fba6fee6ab9f.png)
 
 Source:
 
