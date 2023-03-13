@@ -15,6 +15,8 @@
 
 ## Fix enter key to (submit form/page refresh) in `react-bootstrap`
 
+Complete List of `key` values @ MDN: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)
+
 ![image](https://user-images.githubusercontent.com/31458531/224758915-210bc1c0-ebec-4b42-b64a-df2d5d4a6f07.png)
 
 ## Dynamically adding `meta` and `canonical <link>` tags in `create-react-app` project for SEO purpose
