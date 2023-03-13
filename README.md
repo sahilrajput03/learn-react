@@ -862,6 +862,7 @@ Merged repos:
     - @headlessui/react (https://headlessui.com) : Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 - over-the-head:
   - flatted: https://github.com/WebReflection/flatted
+  - [react-google-recaptcha](https://github.com/dozoisch/react-google-recaptcha), [recpatcha-google-v2](https://developers.google.com/recaptcha/docs/display)
 
 ```js
 // src: https://github.com/WebReflection/flatted
