@@ -13,6 +13,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Fix enter key to (submit form/page refresh) in `react-bootstrap`
+
+![image](https://user-images.githubusercontent.com/31458531/224758915-210bc1c0-ebec-4b42-b64a-df2d5d4a6f07.png)
+
 ## Dynamically adding `meta` and `canonical <link>` tags in `create-react-app` project for SEO purpose
 
 ![image](https://user-images.githubusercontent.com/31458531/224196376-23b8a0ad-9ff8-4dbb-a753-24094f4fcfc4.png)
