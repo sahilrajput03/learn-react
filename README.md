@@ -13,6 +13,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Fix `FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory` react-server error
+
+Source: [Click here](https://stackoverflow.com/a/59983758/10012446)
+
 ## Fix enter key to (submit form/page refresh) in `react-bootstrap`
 
 Complete List of `key` values @ MDN: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)
