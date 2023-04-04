@@ -46,4 +46,4 @@ const counterReducer = createReducer(initialState, (builder) => {
 
 - **Thats how things link in `redux-toolkit`:**
 
-![image](https://user-images.githubusercontent.com/31458531/188605966-dbd8197e-7b5b-47c3-9fd4-5f306dbd997a.png)
+![image](https://user-images.githubusercontent.com/31458531/229863347-c4c889b7-62f1-4868-993c-cbe9139509fc.png)
