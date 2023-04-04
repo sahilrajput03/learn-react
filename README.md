@@ -13,6 +13,31 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Set state on component mount
+
+```js
+import "./styles.css";
+import { useState, useEffect } from "react";
+
+export default function App() {
+  const [state, setState] = useState(5);
+  useEffect(() => {
+    setState((state) => state + 1);
+
+    // Note: If you want to set a state on component mount it should have a cleanup function that should reset the state to the `state` before the effect was run.
+    // Note; You must have a cleanup fn like below if you're setting a state in a useEffect.
+    // Note: If you uncomment below line and refresh, you'll notice state is set to 6 on page mount.
+    return () => setState((state) => state - 1);
+  }, [setState]);
+  return (
+    <div className="App">
+      <h1>Hello CodeSandbox</h1>
+      {state}
+    </div>
+  );
+}
+```
+
 ## Fix `FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory` react-server error
 
 Source: [Click here](https://stackoverflow.com/a/59983758/10012446)
