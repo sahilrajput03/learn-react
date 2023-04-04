@@ -21,39 +21,41 @@ My Codesandbox Example: [Click here](https://codesandbox.io/s/set-state-on-compo
 import "./styles.css";
 import { useState, useEffect } from "react";
 
+const mockApi = () =>
+  new Promise((res) => {
+    setTimeout(() => {
+      console.log("returning api response!");
+      res(25);
+    }, 500);
+  });
+
+// Example inspired from: https://react.dev/learn/you-might-not-need-an-effect#fetching-data
+
+// Note in this example, we're calling api twice in real but only calling `setState` once.
 export default function App() {
   const [state, setState] = useState(5);
   useEffect(() => {
-    setState((state) => state + 1);
+    let ignore = false;
+    console.log("calling api!");
+    mockApi().then((data) => {
+      if (!ignore) {
+        console.log("setting state!");
+        setState(data);
+      }
+    });
 
-    // commented = 7 (incremented twice)
-    // uncommented = 6 (correctly incremented once)
-    // return () => setState((state) => state - 1);
+    return () => {
+      console.log("CLEANUP!");
+      ignore = true;
+    };
   }, [setState]);
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>state: {state}</h2>
-      {Note}
     </div>
   );
 }
-
-const Note = (
-  <>
-    <div>
-      <li>
-        Note: If you want to set a state on component mount it should have a
-        cleanup function that should reset the state to the `state` before the
-        effect was run.
-      </li>
-      <li>
-        Note: If you uncomment line 11: and refresh, you'll notice state is set
-        to 6 on page mount.
-      </li>
-    </div>
-  </>
-);
 ```
 
 ## Fix `FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory` react-server error
