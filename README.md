@@ -15,6 +15,8 @@
 
 ## Set state on component mount
 
+My Codesandbox Example: [Click here](https://codesandbox.io/s/set-state-on-component-mount-37zjw8?file=/src/App.js)
+
 ```js
 import "./styles.css";
 import { useState, useEffect } from "react";
@@ -24,18 +26,34 @@ export default function App() {
   useEffect(() => {
     setState((state) => state + 1);
 
-    // Note: If you want to set a state on component mount it should have a cleanup function that should reset the state to the `state` before the effect was run.
-    // Note; You must have a cleanup fn like below if you're setting a state in a useEffect.
-    // Note: If you uncomment below line and refresh, you'll notice state is set to 6 on page mount.
-    return () => setState((state) => state - 1);
+    // commented = 7 (incremented twice)
+    // uncommented = 6 (correctly incremented once)
+    // return () => setState((state) => state - 1);
   }, [setState]);
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
-      {state}
+      <h2>state: {state}</h2>
+      {Note}
     </div>
   );
 }
+
+const Note = (
+  <>
+    <div>
+      <li>
+        Note: If you want to set a state on component mount it should have a
+        cleanup function that should reset the state to the `state` before the
+        effect was run.
+      </li>
+      <li>
+        Note: If you uncomment line 11: and refresh, you'll notice state is set
+        to 6 on page mount.
+      </li>
+    </div>
+  </>
+);
 ```
 
 ## Fix `FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory` react-server error
