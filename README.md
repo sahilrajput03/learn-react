@@ -15,7 +15,8 @@
 
 ## Calling `setState` after component mount is always safe
 
-Source: [Click here](https://codesandbox.io/s/calling-setstate-is-safe-after-unmount-oo42zc?file=/src/App.js)
+- PR merge on Aug 19, 2021 by Dan Abrmov: [Click here](https://github.com/facebook/react/pull/22114)
+- Source: [Click here](https://codesandbox.io/s/calling-setstate-is-safe-after-unmount-oo42zc?file=/src/App.js)
 
 
 ## Set state on component mount
