@@ -13,6 +13,11 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Calling `setState` after component mount is always safe
+
+Source: [Click here](https://codesandbox.io/s/calling-setstate-is-safe-after-unmount-oo42zc?file=/src/App.js)
+
+
 ## Set state on component mount
 
 My Codesandbox Example: [Click here](https://codesandbox.io/s/set-state-on-component-mount-37zjw8?file=/src/App.js)
