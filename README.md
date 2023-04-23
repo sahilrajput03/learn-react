@@ -13,6 +13,22 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## We can pass state to another component via `location.state` like that
+
+```ts
+const myFun = () => {
+     navigate(`/app/movies/${id}/reviews`, { state: { movieId: popoverClickProps.id } });
+}
+
+// in target component which is rendered at the target path we can use:
+const location = useLocation();
+console.log('location.state?', location.state); // we get same value
+```
+
+![image](https://user-images.githubusercontent.com/31458531/233847953-3d508067-67f7-4fec-8381-84f2efe420ac.png)
+
+![image](https://user-images.githubusercontent.com/31458531/233848349-49d99384-a04e-497a-8975-f981abb8d992.png)
+
 ## Calling `setState` after component mount is always safe
 
 - PR merge on Aug 19, 2021 by Dan Abrmov: [Click here](https://github.com/facebook/react/pull/22114)
