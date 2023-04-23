@@ -25,7 +25,11 @@ const location = useLocation();
 console.log('location.state?', location.state); // we get same value
 ```
 
+**Way 1:**
+
 ![image](https://user-images.githubusercontent.com/31458531/233847953-3d508067-67f7-4fec-8381-84f2efe420ac.png)
+
+**Way 2:**
 
 ![image](https://user-images.githubusercontent.com/31458531/233848349-49d99384-a04e-497a-8975-f981abb8d992.png)
 
