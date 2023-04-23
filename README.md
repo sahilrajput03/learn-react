@@ -922,7 +922,8 @@ Merged repos:
 
 ## Usefult react libraries
 
-- ***From [sahilrajput03/decode-buildonscenes.com](https://github.com/sahilrajput03/decode-buildonscenes.com)**(60lpa dev):***
+- ***From [sahilrajput03/decode-buildonscenes.com](https://github.com/sahilrajput03/decode-buildonscenes.com)**(60lpa dev):*  **
+  - swiper: [swiper](https://www.npmjs.com/package/swiper), [Docs](https://swiperjs.com/) - 35k* (also used in slasher project)
   - emojipicker (emoji-picker-react): https://github.com/ealush/emoji-picker-react
   - shifty (animation library): https://github.com/jeremyckahn/shifty
   - jsfiledownloader: https://github.com/AleeeKoi/js-file-downloader		LEARN: (helpful to download files in browser with progress indication as well)
