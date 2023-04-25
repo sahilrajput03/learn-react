@@ -13,6 +13,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## We can see `useState` hook names in react-dev-tools too - AWESOME
+
+![image](https://user-images.githubusercontent.com/31458531/234232722-4c35d5e0-4c6c-4c92-a7c0-cea6686f01d8.png)
+
 ## We can check whenever `navigate('/my-page')` funnction is called when we're already on the same page i.e., `/my-page`
 
 FYI: You can prevent the calling of the effect on component mount by saving preKey using `useRef()` and avoid calling code in useEffect when `location.key === lastPathRef.current`.
