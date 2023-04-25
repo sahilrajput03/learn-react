@@ -13,6 +13,19 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## We can check whenever `navigate('/my-page')` funnction is called when we're already on the same page i.e., `/my-page`
+
+FYI: You can prevent the calling of the effect on component mount by saving preKey using `useRef()` and avoid calling code in useEffect when `location.key === lastPathRef.current`.
+
+```ts
+const navigate = useNavigate()
+
+useEffect(() => {
+// 1. Code here will only be called whenever `navigate('/my-page')` is called from anywhere of the project
+// 2. Also: It will be triggered when a user click a <Link to={'/my-page'} /> link component. 
+}, [navigate.key])
+```
+
 ## We can pass state to another component via `location.state` like that
 
 ```ts
