@@ -13,6 +13,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## useEffect(() => {}, []) runs twice in development server why?
+
+[Click here](https://blog.bitsrc.io/react-v18-0-useeffect-bug-why-do-effects-run-twice-39babecede93)
+
 ## We can see `useState` hook names in react-dev-tools too - AWESOME
 
 ![image](https://user-images.githubusercontent.com/31458531/234232722-4c35d5e0-4c6c-4c92-a7c0-cea6686f01d8.png)
