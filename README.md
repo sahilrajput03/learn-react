@@ -17,6 +17,11 @@
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
 
+## Learning amazing apis of browser realted to `history` and `state` in browser
+
+- pushState: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/History/pushState) (MDN)
+- When popstate is sent: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Window/popstate_event#when_popstate_is_sent) (MDN)
+
 ## Handling spa with github pages
 
 Source: [Stackoverflow Answer](https://stackoverflow.com/a/46060999/10012446), also from github - [Github 404 Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
