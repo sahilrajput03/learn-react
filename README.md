@@ -17,6 +17,10 @@
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
 
+## Third parater of `addEventListener`
+
+[Click here](https://stackoverflow.com/a/17564340)
+
 ## Learning amazing apis of browser realted to `history` and `state` in browser
 
 - pushState: [Click here](https://developer.mozilla.org/en-US/docs/Web/API/History/pushState) (MDN)
