@@ -392,6 +392,8 @@ Stackoverflow Question: [Click here](https://stackoverflow.com/questions/6128040
 	console.log(successColorBootstrap) // #00ff0a
 	```
 
+- **My notes @ css design trail about css variables accessing/setting via javascript?:** [Click here](https://github.com/sahilrajput03/cssDesignTrail/blob/master/README.md#updateaccess-css-variables-via-javascript)
+
 ## React 18: useEffect Double Call; Mistake or Awesome? ~Jack Herrington
 
 Source: [Click here](https://www.youtube.com/watch?v=j8s01ThR7bQ&t=123s)
