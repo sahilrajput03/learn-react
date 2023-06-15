@@ -17,6 +17,10 @@
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
 
+## Lazy loading images in react
+
+[Clickh here- Youtube video](https://www.youtube.com/watch?v=0-Ze5dEgVFk) - Simple with library `react-lazy-load-image-component` - [npm package](https://www.npmjs.com/package/react-lazy-load-image-component)
+
 ## Third parater of `addEventListener`
 
 [Click here](https://stackoverflow.com/a/17564340)
