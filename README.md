@@ -16,6 +16,15 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Using abort controller with react!
+
+[Source@timestamped](https://youtu.be/95B8mnhzoCM?t=188)
+
+![image](https://user-images.githubusercontent.com/31458531/170984688-c52de1b8-04cb-48bf-9d69-c3a303d3921b.png)
+
+## Using builtin abort controller in react-query
+
+![image](https://user-images.githubusercontent.com/31458531/170984979-03863e13-2f25-4452-96b9-73e4dc729dfd.png)
 
 ## Lazy loading images in react
 
