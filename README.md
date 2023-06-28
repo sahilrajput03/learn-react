@@ -16,6 +16,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Easy way to get get values in browser console
+
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/e55e8269-92c0-4eda-8494-ee4d617024eb)
+
 ## Using abort controller with react!
 
 [Source@timestamped](https://youtu.be/95B8mnhzoCM?t=188)
