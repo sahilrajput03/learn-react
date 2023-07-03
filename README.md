@@ -16,6 +16,12 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Third argument for `window.addEventListener`
+
+TLDR: To prevent consumption of the event by other events like `focus`, etc. Thanks Eric.
+
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/7c2f1451-7d85-4296-bfef-6bdcb4710c37)
+
 ## Easy way to get get values in browser console
 
 ![image](https://github.com/sahilrajput03/learn-react/assets/31458531/e55e8269-92c0-4eda-8494-ee4d617024eb)
