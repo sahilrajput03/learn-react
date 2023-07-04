@@ -16,6 +16,16 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Making the debugger to run with delay when we need to press `F8` but fails to capture the UI for e.g., with dropdown
+
+Use this snippet in browser console:
+
+```js
+// So after running below code, you may open any drop-down like ui and stay there for a 3 seconds and the debugger will froze the UI
+// and it will be helpful to inspect the html elements much easier now
+setTimeout(() => {debugger}, 3000)
+```
+
 ## Make child component state in sync with parent component state
 
 Note: There are some scenarios when we can't re-use parent component state but have to update parent component's state is the only option. So in those cases we can do like this:
