@@ -30,7 +30,8 @@ const ParentComp = () => {
 const ChildComp = ({ initialCount, setMainCount }) => {
   const [count, setCount] = useState(initialCount ?? 0);
 
-  // This hook ensures making the `count` state in sync with parent's `mainCount` at all times (i.e., when child component's state is updated) 
+  // This hook ensures making the `count` state in sync with parent's `mainCount` at all
+  // times (i.e., whenever child component's state is updated via the button)
   useEffect(() => { setMainCount(count); }, [count])
   return
     <div>
