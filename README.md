@@ -16,6 +16,29 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Make child component state in sync with parent component state
+
+Note: There are some scenarios when we can't re-use parent component state but have to update parent component's state is the only option. So in those cases we can do like this:
+
+```js
+const ParentComp = () => {
+  const [mainCount, setMainCount] = useState(0);
+
+  return <ChildComp setMainCount={setMainCount} />
+}
+
+const ChildComp = ({ initialCount, setMainCount }) => {
+  const [count, setCount] = useState(initialCount ?? 0);
+
+  // This hook ensures making the `count` state in sync with parent's `mainCount` at all times (i.e., when child component's state is updated) 
+  useEffect(() => { setMainCount(count); }, [count])
+  return
+    <div>
+      <button onClick={() => setCount(count => count + 1)}>{count}</button>
+    </div> 
+}
+```
+
 ## Third argument for `window.addEventListener`
 
 TLDR: To prevent consumption of the event by other events like `focus`, etc. Thanks Eric.
