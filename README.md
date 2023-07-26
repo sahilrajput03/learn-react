@@ -16,6 +16,16 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Are all contents of `build` directory cleaned when we run `react-scripts build` command in a CRA
+
+Source: [Click here](https://github.com/facebook/create-react-app/blob/main/packages/react-scripts/scripts/build.js#L72C37-L72C37)
+
+Yes, they are!
+
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/1fa99559-a9ee-4839-9f05-0f2f623c35cb)
+
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/e773b50c-4f0b-46d4-b466-2547e395755c)
+
 ## Making the debugger to run with delay when we need to press `F8` but fails to capture the UI for e.g., with dropdown
 
 Use this snippet in browser console:
