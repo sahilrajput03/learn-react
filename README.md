@@ -24,7 +24,7 @@ Yes, they are!
 
 ![image](https://github.com/sahilrajput03/learn-react/assets/31458531/1fa99559-a9ee-4839-9f05-0f2f623c35cb)
 
-![image](https://github.com/sahilrajput03/learn-react/assets/31458531/e773b50c-4f0b-46d4-b466-2547e395755c)
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/22cd5851-6a3a-4f1d-8e4a-cd3259fcf4d3)
 
 ## Making the debugger to run with delay when we need to press `F8` but fails to capture the UI for e.g., with dropdown
 
