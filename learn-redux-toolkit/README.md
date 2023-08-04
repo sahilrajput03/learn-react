@@ -12,9 +12,8 @@
 
 ![image](https://github.com/sahilrajput03/learn-react/assets/31458531/b8367fb6-423a-4505-ac52-f7eed0d238a9)
 
-## This project info
+## Quick Links
 
-Source of this project:
 - Quick Start Guide - Docs: [Click here](https://redux-toolkit.js.org/tutorials/quick-start)
 - `createReducer()` - Docs: [Click here](https://redux-toolkit.js.org/api/createReducer).
 - Redux Toolkit - Official Github: [Click here](https://github.com/reduxjs/redux-toolkit)
