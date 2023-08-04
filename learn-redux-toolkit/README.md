@@ -1,14 +1,23 @@
 # Learn redux-toolkit
 
-Source of this project: [Quick Start Guide](https://redux-toolkit.js.org/tutorials/quick-start) @ `redux-toolkit` docs and [`createReducer()`](https://redux-toolkit.js.org/api/createReducer).
+## Debugging on cocaine
 
-[@Github](https://github.com/reduxjs/redux-toolkit)
+```js
+(window as any).rx = store;
+```
 
-Api:
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/c66127bc-2d99-434e-a0d7-4a11061b2c67)
 
-- [`createReducer()`](https://redux-toolkit.js.org/api/createReducer)
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/d1c42b69-a6c4-442b-85c0-fb653bf8cef7)
 
-Source: Above link.
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/b8367fb6-423a-4505-ac52-f7eed0d238a9)
+
+## This project info
+
+Source of this project:
+- Quick Start Guide - Docs: [Click here](https://redux-toolkit.js.org/tutorials/quick-start)
+- `createReducer()` - Docs: [Click here](https://redux-toolkit.js.org/api/createReducer).
+- Redux Toolkit - Official Github: [Click here](https://github.com/reduxjs/redux-toolkit)
 
 ```ts
 import { createAction, createReducer } from '@reduxjs/toolkit'
