@@ -2,7 +2,7 @@
 
 - Read how to work with react-routerv6: [Ultimate React Router v6 Guide ~ Kyle](https://blog.webdevsimplified.com/2022-07/react-router/)
 
-## We can assign type for `useParams`
+## We can assign type for `useParams` ❤️❤️
 
 ```ts
 type Tab = {
@@ -13,7 +13,7 @@ type ParamsType = { podcastId: string, tabKey: Tab['value'] };
 const { podcastId, tabKey } = useParams<ParamsType>(); // NOTE: We assigned type here
 ```
 
-## You can not defined types for `useSearchParams` and `searchParams.get`
+## You can not 😔 define types for `useSearchParams` and `searchParams.get`
 
 ```ts
 // INCORRECT WAY: Because types not allowed for `useSearchParams` and `searchParams.get` at all:
