@@ -2,6 +2,20 @@
 
 - Read how to work with react-routerv6: [Ultimate React Router v6 Guide ~ Kyle](https://blog.webdevsimplified.com/2022-07/react-router/)
 
+## You can not defined types for
+
+```ts
+// INCORRECT WAY: Because types not allowed for `useSearchParams` and `searchParams.get` at all:
+const [searchParams] = useSearchParams<anyTypeHere1>(); // NOTE: anyTypeHere1 will throw typescript error i.e, `expected 0 argument but got 1`
+const view = searchParams.get<anyTypeHere2>('view') as ViewSearchParam; // NOTE: anyTypeHere2 will throw typescript error i.e, `expected 0 argument but got 1`
+
+// CORRECT WAY TO SET TYPES FOR `searchParams`:
+type ViewSearchParam = 'self' | 'edit' | null;
+const [searchParams] = useSearchParams();
+const view = searchParams.get<anyTypeHere2>('view') as ViewSearchParam; // NOTE: We assigned type here
+```
+
+
 ## `react-router-dom` docs links
 - Migrating from v5 to v6 in react-router-dom: [Click here](https://reactrouter.com/en/main/upgrading/v5)
 
