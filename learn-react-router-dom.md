@@ -10,7 +10,6 @@ type Tab = {
   label: string,
 };
 type ParamsType = { podcastId: string, tabKey: Tab['value'] };
-
 const { podcastId, tabKey } = useParams<ParamsType>(); // NOTE: We assigned type here
 ```
 
