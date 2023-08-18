@@ -17,6 +17,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Can we change react state without re-rendering the component - Interview Question
+
+Stackoverflow: [Click here](https://stackoverflow.com/a/54066586/10012446)
+
 ## Are all contents of `build` directory cleaned when we run `react-scripts build` command in a CRA
 
 Source: [Click here](https://github.com/facebook/create-react-app/blob/main/packages/react-scripts/scripts/build.js#L72C37-L72C37)
