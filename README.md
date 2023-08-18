@@ -21,6 +21,18 @@
 
 Stackoverflow: [Click here](https://stackoverflow.com/a/54066586/10012446)
 
+TLDR: We can control rendering irrespective of state change only if we use class-comoponent's `shouldComponentUpdate` method:
+
+```ts
+  // snippet from above stackoverflow answer
+  shouldComponentUpdate(nextProps, nextState) { 
+    if (nextState.value !== 3) { 
+      return false;
+    }
+    return true;
+  }
+```
+
 ## Are all contents of `build` directory cleaned when we run `react-scripts build` command in a CRA
 
 Source: [Click here](https://github.com/facebook/create-react-app/blob/main/packages/react-scripts/scripts/build.js#L72C37-L72C37)
