@@ -17,6 +17,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## What is MVC?
+
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/0ea3eb9a-fa0c-468f-88b1-b229b43eefec)
+
 ## Can we change react state without re-rendering the component - Interview Question
 
 Stackoverflow: [Click here](https://stackoverflow.com/a/54066586/10012446)
