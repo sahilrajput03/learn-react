@@ -1,5 +1,9 @@
 # Readme
 
+**Quick Links to this repository:**
+- **React testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
+- **React file structure:** [Click here](https://react-file-structure.surge.sh/)
+
 **Quick Links:**
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
