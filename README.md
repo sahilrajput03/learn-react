@@ -3,6 +3,7 @@
 **Quick Links to this repository:**
 - **React testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **React file structure:** [Click here](https://react-file-structure.surge.sh/)
+- Use other machine for react server development: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/remote-development.md)
 
 **Quick Links:**
 - React Challenges: [Click here](./react-challenges.md)
