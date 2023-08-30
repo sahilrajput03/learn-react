@@ -6,6 +6,10 @@
 
 ## Do I need to send Advertising Id to Google Ads
 
+Other links:
+- GeeksForGeeks - How to Use Advertisement ID in Android?: [Click here](https://www.geeksforgeeks.org/how-to-use-advertisement-id-in-android/)
+- Device ID: [Click here](https://www.appsflyer.com/glossary/device-id/?utm_source=youtube&utm_medium=referral&utm_campaign=yt-glossary-device-id)
+
 ![image](https://github.com/sahilrajput03/learn-react/assets/31458531/ec33fcfd-4d7a-4201-8554-10e2cfed8ea1)
 
 ![image](https://github.com/sahilrajput03/learn-react/assets/31458531/82684d20-d4b3-4342-a875-a48797c92143)
