@@ -6,7 +6,7 @@
 
 ## Do I need to send Advertising Id to Google Ads
 
-Other links:
+Links and resources:
 - Google Docs - Advertising ID: [Click here](https://support.google.com/googleplay/android-developer/answer/6048248?hl=en)
 - Google Docs - AdvertisingIdClient: [Click here](https://developers.google.com/android/reference/com/google/android/gms/ads/identifier/AdvertisingIdClient)
 - GeeksForGeeks - How to Use Advertisement ID in Android?: [Click here](https://www.geeksforgeeks.org/how-to-use-advertisement-id-in-android/)
