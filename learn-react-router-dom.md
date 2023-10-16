@@ -1,7 +1,7 @@
 # Learn react-router-dom
 
 - Read how to work with react-routerv6: [Ultimate React Router v6 Guide ~ Kyle](https://blog.webdevsimplified.com/2022-07/react-router/)
-- `createroutesfromelements`: [Click here](https://reactrouter.com/en/main/utils/create-routes-from-elements#createroutesfromelements)
+- Docs | `createroutesfromelements`: [Click here](https://reactrouter.com/en/main/utils/create-routes-from-elements#createroutesfromelements)
 
 ## We can assign type for `useParams` ❤️❤️
 
