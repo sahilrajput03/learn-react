@@ -22,6 +22,10 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Want to do inifinite loading content?
+
+Try awsome React Query's way of doing it: [Click here](https://tanstack.com/query/v4/docs/react/guides/infinite-queries#what-if-i-want-to-implement-a-bi-directional-infinite-list)
+
 ## What is MVC?
 
 ![image](https://github.com/sahilrajput03/learn-react/assets/31458531/0ea3eb9a-fa0c-468f-88b1-b229b43eefec)
