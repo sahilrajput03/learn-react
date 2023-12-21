@@ -1,6 +1,8 @@
 # Readme
 
 **Quick Links to this repository:**
+- Learn Zustand: [Click here](https://docs.google.com/document/d/1rLGBiKZNNH_8lCQEYtFAwhgi7EPAUpcbBluMder7Epw/edit#heading=h.f44xzpmznf8)
+- Learn SolidJS: [Click here](https://docs.google.com/document/d/1xrjdg2v3Po5P94YuEb4n7hXeexZYN33J05FXnsROVZw/edit)
 - **React testing:** [Click here](https://github.com/sahilrajput03/learn-react/tree/main/jest-testing)
 - **React file structure:** [Click here](https://react-file-structure.surge.sh/)
 - Use other machine for react server development: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/remote-development.md)
