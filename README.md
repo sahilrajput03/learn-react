@@ -22,6 +22,114 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Radios and Checkboxes
+
+Radio Example:
+
+```ts
+TypeScript
+
+const RadioGroupExample = () => {
+  // rg = radio group
+  const [rg, setRg] = useState({
+    // LEARN: Name helps us to group multiple radio button groups to work independently
+    name: 'fav_language',
+    radioList: [
+      {
+        id: 'html',
+        checked: false,
+        label: 'HTML'
+      },
+      {
+        id: 'css',
+        checked: false,
+        label: 'CSS'
+      },
+      {
+        id: 'javascript',
+        checked: false,
+        label: 'JAVASCRIPT'
+      },
+    ]
+  })
+  console.log('rg?', rg);
+
+  const handleRadio = (e) => {
+    const { id, checked } = e.target
+    // console.log('id?', id) // "html", "css", "javascript"
+    // console.log('checked?', checked) // typeof boolean
+    const radio = rg.radioList.find((radio: any) => radio.id === id)
+
+    if (!radio) { return console.log('no radio button found') }
+
+    setRg(prev => ({
+      ...prev,
+      radioList: prev.radioList.map(radio => {
+        return radio.id === id
+          ? ({ ...radio, checked })
+          : ({ ...radio, checked: false })
+          // Note: In above line, we do need to explicitly marking other radio as checked=false
+      })
+    }))
+  }
+
+  return <div>
+    {rg.radioList.map(radio => {
+      return <div key={radio.id}>
+        <input type="radio" name={rg.name} id={radio.id} checked={radio.checked} onChange={handleRadio} />
+        <label htmlFor={radio.id}>{radio.label}</label>
+        <br />
+      </div>
+    })}
+
+  </div>
+}
+```
+
+Checkbox Example:
+
+```ts
+const CheckboxExample = () => {  const [checkboxes, setCheckboxes] = useState([
+    {
+      id: 'cb1',
+      checked: false,
+      label: 'HTML'
+    },
+    {
+      id: 'cb2',
+      checked: false,
+      label: 'CSS'
+    },
+  ])
+  console.log('checkboxes?', checkboxes);
+
+  const handleCheckbox = (e) => {
+    const { id, checked } = e.target
+    // console.log('id?', id) // "html", "css", "javascript"
+    // console.log('checked?', checked) // typeof boolean
+    const checkbox = checkboxes.find((checkbox: any) => checkbox.id === id)
+
+    if (!checkbox) { return console.log('no checkbox found') }
+
+    setCheckboxes(prev => prev.map(checkbox => {
+      return checkbox.id === id
+        ? ({ ...checkbox, checked })
+        : ({ ...checkbox })
+    }))
+  }
+
+  return <div>
+    {checkboxes.map(checkbox => {
+      return <div key={checkbox.id}>
+        <input type="checkbox" id={checkbox.id} checked={checkbox.checked} onChange={handleCheckbox} />
+        <label htmlFor={checkbox.id}>{checkbox.label}</label>
+        <br />
+      </div>
+    })}
+  </div>
+}
+```
+
 ## Want to do inifinite loading content?
 
 Try awsome React Query's way of doing it: [Click here](https://tanstack.com/query/v4/docs/react/guides/infinite-queries#what-if-i-want-to-implement-a-bi-directional-infinite-list)
