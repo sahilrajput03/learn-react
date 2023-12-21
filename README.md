@@ -24,7 +24,7 @@
 
 ## Radios and Checkboxes
 
-- ChatGPT - Radio Buttons vs. Checkboxes (AWESOME): [Click here](https://chat.openai.com/c/e61cc22a-c5aa-4839-92e8-610849e31443)
+- AWESOME - ChatGPT - Radio Buttons vs. Checkboxes: [Click here](https://chat.openai.com/c/e61cc22a-c5aa-4839-92e8-610849e31443)
 - Checkbox: [w3schools.com](https://www.w3schools.com/tags/att_input_type_checkbox.asp)
 - Radio: [w3schools.com](https://www.w3schools.com/tags/att_input_type_radio.asp)
 
