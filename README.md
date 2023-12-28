@@ -24,6 +24,37 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## HTML inputs
+
+source: https://www.w3schools.com/html/html_form_input_types.asp
+
+```ts
+Here are the different input types you can use in HTML:
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+```
+
 ## Radios and Checkboxes
 
 - AWESOME - ChatGPT - Radio Buttons vs. Checkboxes: [Click here](https://chat.openai.com/c/e61cc22a-c5aa-4839-92e8-610849e31443)
