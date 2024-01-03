@@ -24,6 +24,12 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Native Modal in html
+
+Source: [Click here](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_dialog)
+
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/cb0a8ff5-89e8-42f7-99be-ffa2cb6bc937)
+
 ## HTML inputs
 
 source: https://www.w3schools.com/html/html_form_input_types.asp
