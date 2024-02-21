@@ -24,6 +24,53 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Track if cursor is inside the div / element 
+
+```tsx
+const Approach2 = () => {
+  const boxRef1 = useRef<HTMLDivElement>(null)
+  const [isInSide, setIsHover] = useState(false)
+  const mousePosition = useMousePosition()
+
+  const isInside = (mousePos) => {
+    if (!boxRef1.current) return;
+    const eleBounds = boxRef1.current.getBoundingClientRect();
+    const isInsideCard = mousePos.x >= eleBounds.left &&
+      mousePos.x <= eleBounds.right &&
+      mousePos.y >= eleBounds.top &&
+      mousePos.y <= eleBounds.bottom
+
+    if (isInsideCard) {
+      setIsHover(true)
+    } else {
+      setIsHover(false)
+    }
+  }
+
+  useEffect(() => {
+    isInside(mousePosition)
+  }, [mousePosition])
+
+  return <div>
+    <h1 className=''>Approach 2</h1>
+    <div
+      id="boxRef1"
+      ref={boxRef1}
+      className='w-[300px] h-[300px] background-grey p-3'
+      style={{ border: '2px solid grey', }}
+    >
+      <div className='h-full' style={{
+        border: '2px solid red'
+      }}>
+        {isInSide ? 'inside' : 'not inside'}
+        <br />
+        {mousePosition.x}, {mousePosition.y}
+      </div>
+    </div>
+  </div>
+}
+```
+
 ## Native Modal in html
 
 Source: [Click here](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_dialog)
