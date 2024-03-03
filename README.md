@@ -27,7 +27,6 @@
 ## Learn Tel Code (country code, phone code selector)
 
 ```jsx
-import 'react-phone-number-input/style.css'
 import { MuiTelInput } from 'mui-tel-input'
 import styled from 'styled-components'
 
