@@ -24,6 +24,45 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+## Learn Tel Code (country code, phone code selector)
+
+```jsx
+import 'react-phone-number-input/style.css'
+import { MuiTelInput } from 'mui-tel-input'
+import styled from 'styled-components'
+
+const TelContainer = styled.div`
+  fieldset{
+    border: 0px solid red;
+  }
+`
+
+const MyComponent = () => {
+  const isIndia = Intl.DateTimeFormat().resolvedOptions().timeZone === 'Asia/Calcutta'
+
+  const [value, setValue] = React.useState(isIndia ? '+91' : '')
+  console.log('value?', value);
+
+  const handleChange = (newValue) => {
+    setValue(newValue)
+  }
+  return (
+    <div>
+      <TelContainer>
+        <MuiTelInput
+          value={value}
+          onChange={handleChange}
+          defaultCountry='IN'
+          style={{
+            width: 0
+          }}
+        />
+      </TelContainer>
+    </div>
+  )
+}
+```
+
 ## Track if cursor is inside the div / element 
 
 ```tsx
