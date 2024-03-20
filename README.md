@@ -69,6 +69,12 @@ Merged repos:
   - [react-google-recaptcha](https://github.com/dozoisch/react-google-recaptcha), [recpatcha-google-v2](https://developers.google.com/recaptcha/docs/display) (used in slasher)
   - react-feather - Simply beautiful open-source icons: [npm](https://www.npmjs.com/package/react-feather), [github](https://github.com/feathericons/react-feather), Website: [feathericons.com](https://feathericons.com/), Vanilla Github Repo: [Click here](https://github.com/feathericons/feather)
 
+## Using `useId` hook in react
+
+![image](https://github.com/sahilrajput03/learn-react/assets/31458531/40079130-698c-4dc1-8a61-5b7503875991)
+
+## `flatted`
+
 ```js
 // src: https://github.com/WebReflection/flatted
 const {parse, stringify, toJSON, fromJSON} = require('flatted');
