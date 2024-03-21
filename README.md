@@ -10,6 +10,7 @@
 **Quick Links:**
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
+- Learn hooks in react ~ Ben Avadh: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao&list=PLBfwD_NnDB3q6NUmw59z_7gSqd1-hSnbu&index=35)
 
 **Quick Links My Resources:**
 - cssDesignTrail: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
@@ -23,8 +24,6 @@
 **TODO:**
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
-
-- Learn hooks in react ~ Ben Avadh: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao&list=PLBfwD_NnDB3q6NUmw59z_7gSqd1-hSnbu&index=35)
 
 ## For reference to fullstack solutions: Please refer @ https://github.com/sahilrajput03/fullstackopen
 
