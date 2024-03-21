@@ -10,7 +10,7 @@
 **Quick Links:**
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
-- Learn hooks in react ~ Ben Avadh: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao&list=PLBfwD_NnDB3q6NUmw59z_7gSqd1-hSnbu&index=35)
+- Learn hooks in react ~ Ben Avadh: [Click here](https://www.youtube.com/playlist?list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM)
 
 **Quick Links My Resources:**
 - cssDesignTrail: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
