@@ -24,24 +24,13 @@
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 - Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
+- Learn hooks in react ~ Ben Avadh: [Click here](https://www.youtube.com/watch?v=AdNJ3fydeao&list=PLBfwD_NnDB3q6NUmw59z_7gSqd1-hSnbu&index=35)
 
 ## For reference to fullstack solutions: Please refer @ https://github.com/sahilrajput03/fullstackopen
 
 Merged repos:
 
-- `absolute-path-cra`
-- react-app as `template-js-vite` directory
-- `simple_service_worker`
-- `react-markdown-serve-markedjs`
-- `react-vite` as `my-react-vite-app` directory
-- `react-sass-love`
-- `react-fast-refresh-boilerplate`
-- `react-naked` as `react-via-cdn`
-- `snowpack-react-boilerplate/`
-- `deno-aleph-react-framework`
-- `GistsFetchingFromGithubRandom_react-router-dom`
-- `hackerrank-sorting-react-test`
-- React-query: [Gist](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
+- `absolute-path-cra`, react-app as `template-js-vite` directory, `simple_service_worker`, `react-markdown-serve-markedjs`, `react-vite` as `my-react-vite-app` directory, `react-sass-love`, `react-fast-refresh-boilerplate`, `react-naked` as `react-via-cdn`, `snowpack-react-boilerplate/`, `deno-aleph-react-framework`, `GistsFetchingFromGithubRandom_react-router-dom`, `hackerrank-sorting-react-test`, React-query: [Gist](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
 
 ## Other react articles
 
