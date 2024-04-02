@@ -11,6 +11,7 @@
 - React Challenges: [Click here](./react-challenges.md)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
 - Learn hooks in react ~ Ben Avadh: [Click here](https://www.youtube.com/playlist?list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM)
+- Check metatags of a website: [Click here](https://www.heymeta.com/)
 
 **Quick Links My Resources:**
 - cssDesignTrail: [Click here](https://github.com/sahilrajput03/cssDesignTrail)
