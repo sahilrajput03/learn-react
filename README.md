@@ -411,7 +411,7 @@ TLDR: To prevent consumption of the event by other events like `focus`, etc. Tha
 
 ## Using builtin abort controller in react-query
 
-<img src="https://user-images.githubusercontent.com/31458531/170984979-03863e13-2f25-4452-96b9-73e4dc729dfd.png" alt="Click to open hd version of image" width="700" />
+Note to Sahil: View the notes of react query in the gist file [here.](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
 
 ## Lazy loading images in react
 
@@ -837,7 +837,7 @@ export const useMatchMedia = (mediaQuery, initialValue) => {
         return watcher.removeListener(listener);
       }
     };
-  }, [mediaQuery]);
+  }, [media]);
 
   return isMatching;
 };
@@ -1198,14 +1198,6 @@ Output:
 FYI: With `nextjs` the only nodejs debugger debugs both frontend and backed breakpoints well, yo.
 
 ![image](https://user-images.githubusercontent.com/31458531/185749877-762ee0e5-583b-4993-9acf-95c02ea3f3cc.png)
-
-
-## react-query is companies standard now
-
-Date: 20 Aug, 2022, Souce: https://npmtrends.com/react-query
-
-![image](https://user-images.githubusercontent.com/31458531/185748459-b5d07422-df5b-4254-9aad-0c3e893c542b.png)
-
 
 ## Use vscode debugger to get the return value of a component
 
