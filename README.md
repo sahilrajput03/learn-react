@@ -327,7 +327,7 @@ const CheckboxExample = () => {  const [checkboxes, setCheckboxes] = useState([
 
 ## Want to do inifinite loading content?
 
-Note to Sahil: View the notes of react-query.md file.
+Note to Sahil: View the notes of react query in the gist file [here.](https://gist.github.com/sahilrajput03/c870bee7bbc40cf303abc72cc245d14e)
 
 ## What is MVC?
 
