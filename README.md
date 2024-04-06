@@ -24,7 +24,6 @@
 
 **TODO:**
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
-- Five Clever Hacks for React-Query and SWR: [Click here](https://youtu.be/JaM2rExmmqs) **by Jack Herrington**
 
 ## For reference to fullstack solutions: Please refer @ https://github.com/sahilrajput03/fullstackopen
 
@@ -328,7 +327,7 @@ const CheckboxExample = () => {  const [checkboxes, setCheckboxes] = useState([
 
 ## Want to do inifinite loading content?
 
-Try awsome React Query's way of doing it: [Click here](https://tanstack.com/query/v4/docs/react/guides/infinite-queries#what-if-i-want-to-implement-a-bi-directional-infinite-list)
+Note to Sahil: View the notes of react-query.md file.
 
 ## What is MVC?
 
