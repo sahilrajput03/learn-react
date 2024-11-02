@@ -10,9 +10,9 @@
 **Quick Links:**
 - ✌🏻 React Challenges: [Click here](./react-challenges.md)
 - React Projects for reference:
-	- ❤️ **reactjsexample.com - Tons of react full apps examples:** [reactjsexample.com](https://reactjsexample.com)
-	- ❤️ Massiv List of React Projects with source code: [reactjsexample.com](https://reactjsexample.com/tag/blog/)
- 	- ❤️ Made with ReactJs: [madewithreactjs.com](https://madewithreactjs.com/)
+	- ❤️ **Reactjs Example - Tons of react full apps examples:** [reactjsexample.com](https://reactjsexample.com)
+		- Blog: [reactjsexample.com](https://reactjsexample.com/tag/blog/)
+ 	- ❤️ **Made with ReactJs:** [madewithreactjs.com](https://madewithreactjs.com/)
 - KCD's Calls: [Click here](https://kentcdodds.com/calls)
 - Learn hooks in react ~ Ben Avadh: [Click here](https://www.youtube.com/playlist?list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM)
 - Check metatags of a website: [Click here](https://www.heymeta.com/)
