@@ -8,7 +8,7 @@
 - Use other machine for react server development: [Click here](https://github.com/sahilrajput03/sahilrajput03/blob/master/remote-development.md)
 
 **Quick Links:**
-- ❤️ React Challenges: [Click here](./react-challenges.md)
+- ✌🏻 React Challenges: [Click here](./react-challenges.md)
 - React Projects for reference:
 	- ❤️ **reactjsexample.com - Tons of react full apps examples:** [reactjsexample.com](https://reactjsexample.com)
 	- ❤️ Massiv List of React Projects with source code: [reactjsexample.com](https://reactjsexample.com/tag/blog/)
