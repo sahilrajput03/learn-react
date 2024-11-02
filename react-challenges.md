@@ -9,4 +9,3 @@
 7. **{TODO: URGENT} Become a Pro React Developer ~ Jack Herrington: [Click here](https://www.youtube.com/playlist?list=PLNqp92_EXZBJs6rKouX5U8-tWJgTLaeKv)**
 8. Playlist - React Hooks Tutorial ~ Ben Awad (1h 45m): [Click here](https://www.youtube.com/playlist?list=PLN3n1USn4xlmyw3ebYuZmGp60mcENitdM)
 9. Massiv List of React Projects with source code: [Click here](https://reactjsexample.com/tag/blog/)
-10. 😍 **reactjsexample.com - Tons of react full apps examples:** [Click here](https://reactjsexample.com)
