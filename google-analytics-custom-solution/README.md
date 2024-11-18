@@ -1,5 +1,7 @@
 # Learn google analytics
 
+**TODO:** Try this extension **Debugger for Google Analytics 4 (GA4)**: [Click here](https://chromewebstore.google.com/detail/debugger-for-google-analy/nomnoimacbncclfbnfaingniikblfbji)
+
 Also refer my telegram group of other minimal resources: https://t.me/+K-rI9crbbo9iNTU1
 
 ```ts
