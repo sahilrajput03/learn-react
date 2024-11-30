@@ -32,7 +32,8 @@
 
 ## React 19 Launch - 4 Sept, 2024
 
-[https://vercel.com/blog/whats-new-in-react-19](https://vercel.com/blog/whats-new-in-react-19)
+- [https://vercel.com/blog/whats-new-in-react-19](https://vercel.com/blog/whats-new-in-react-19)
+- [https://react.dev/blog/2024/04/25/react-19](https://react.dev/blog/2024/04/25/react-19)
 
 ## For reference to fullstack solutions: Please refer @ https://github.com/sahilrajput03/fullstackopen
 
