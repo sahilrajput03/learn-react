@@ -35,6 +35,7 @@
 - [https://vercel.com/blog/whats-new-in-react-19](https://vercel.com/blog/whats-new-in-react-19)
 - [https://react.dev/blog/2024/04/25/react-19](https://react.dev/blog/2024/04/25/react-19)
 - [https://www.reddit.com/r/react/comments/1eowuua/when_is_the_official_release_date_for_react_19/](https://www.reddit.com/r/react/comments/1eowuua/when_is_the_official_release_date_for_react_19/)
+- [https://www.reddit.com/r/react/comments/1eowuua/when_is_the_official_release_date_for_react_19](https://www.reddit.com/r/react/comments/1eowuua/when_is_the_official_release_date_for_react_19/)
 
 ## For reference to fullstack solutions: Please refer @ https://github.com/sahilrajput03/fullstackopen
 
