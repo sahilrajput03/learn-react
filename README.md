@@ -30,6 +30,10 @@
 **TODO:**
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 
+## React 19 Launch - 4 Sept, 2024
+
+[https://vercel.com/blog/whats-new-in-react-19](https://vercel.com/blog/whats-new-in-react-19)
+
 ## For reference to fullstack solutions: Please refer @ https://github.com/sahilrajput03/fullstackopen
 
 Merged repos:
