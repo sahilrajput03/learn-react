@@ -30,6 +30,60 @@
 **TODO:**
 - Make a codesandbox example for making use of nested route system (refer slasher project for it)
 
+## Getter, Setter in react for use with `useState`
+
+Stackblitz Link: [Click here](https://stackblitz.com/edit/vitejs-vite-xqvnvf?file=src%2FApp.tsx,src%2FstoreHelper.ts&terminal=dev)
+
+```jsx
+// FILE: storeHelper.tsx
+import { useState } from 'react';
+
+export const createStore = (initialValue: any) => {
+  const [state, setState] = useState(initialValue);
+  return {
+    get value() {
+      return state;
+    },
+    set value(valueOrCallback) {
+      setState(valueOrCallback);
+    },
+  };
+};
+```
+
+```jsx
+// FILE: app.tsx
+import './App.css';
+import { createStore } from './storeHelper';
+
+function App() {
+  const countStore = createStore(1);
+  return (
+    <>
+      <h1>counter: {countStore.value}</h1>
+
+      <button
+        onClick={() => {
+          countStore.value = countStore.value + 1;
+        }}
+      >
+        Add 1
+      </button>
+
+      <button
+        onClick={() => {
+          countStore.value = (value: any) => value * 2;
+        }}
+      >
+        Double
+      </button>
+    </>
+  );
+}
+
+export default App;
+```
+
 ## React 19 Launch - 4 Sept, 2024
 
 - [https://vercel.com/blog/whats-new-in-react-19](https://vercel.com/blog/whats-new-in-react-19)
