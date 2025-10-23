@@ -1,0 +1,9 @@
+{
+    // Learn: Using this setting to format html insde the tempalte literals in js files e.g, const foo = html`<div>...</div>`
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    }
+}
