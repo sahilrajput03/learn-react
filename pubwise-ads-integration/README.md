@@ -1,6 +1,6 @@
 # Learn Ads
 
-*You can also check this repo: [sahilrajput03/the-publisher-desk-ads-test](https://github.com/sahilrajput03/the-publisher-desk-ads-test)*
+*❤️You can also check this repo: [sahilrajput03/the-publisher-desk-ads-test](https://github.com/sahilrajput03/the-publisher-desk-ads-test)*
 
 **Googel Publisher:**
 - Lazy Loading | Docs: [Click here](https://developers.google.com/publisher-tag/samples/lazy-loading)
